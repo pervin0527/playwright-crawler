@@ -104,3 +104,267 @@ Call log:
 2025-06-15 11:40:32,104 - INFO - 브라우저 종료 완료
 2025-06-15 11:40:32,111 - INFO - Playwright 정리 완료
 2025-06-15 11:40:32,135 - INFO - 정리 후 메모리 사용량: 124.20 MB
+2025-06-15 12:16:57,757 - INFO - 새 MongoClient 생성: mongodb://localhost:27017
+2025-06-15 12:16:57,840 - INFO - 기업명: 형지엘리트, 기업코드: 00441243, 주식코드: 093240
+2025-06-15 12:16:57,840 - INFO - 산업 분류 정보: {'level1': '제조업', 'level2': '의복, 의복 액세서리 및 모피제품 제조업', 'level3': '봉제의복 제조업', 'level4': '겉옷 제조업', 'level5': '여자용 겉옷 제조업'}
+2025-06-15 12:16:58,134 - INFO - Playwright 브라우저 컨텍스트 생성 완료
+2025-06-15 12:16:58,134 - INFO - DART 메인 페이지 로드 시도 1/3
+2025-06-15 12:16:59,583 - INFO - 스크린샷 저장: /playwright-crawler/screenshots/01_dart_main_loaded_형지엘리트_1749989819.png
+2025-06-15 12:16:59,583 - INFO - DART 메인 페이지 로드 성공. URL: https://dart.fss.or.kr/main.do
+2025-06-15 12:16:59,583 - INFO - 기업명 검색 시도 1/3: 형지엘리트
+2025-06-15 12:17:00,825 - INFO - 스크린샷 저장: /playwright-crawler/screenshots/02_search_input_filled_형지엘리트_1749989820.png
+2025-06-15 12:17:03,022 - INFO - 스크린샷 저장: /playwright-crawler/screenshots/03_search_results_형지엘리트_1749989822.png
+2025-06-15 12:17:03,023 - INFO - 기업명 검색 성공: 형지엘리트
+2025-06-15 12:17:03,029 - INFO - 기업 선택 창 표시 여부: False
+2025-06-15 12:17:03,029 - INFO - 검색 조건 설정 시작
+2025-06-15 12:17:03,090 - INFO - 기간 설정 완료: 최근 10년
+2025-06-15 12:17:03,138 - INFO - 공시유형 설정 완료: 사업보고서
+2025-06-15 12:17:03,186 - INFO - 세부 옵션 설정 완료: 정정공시 포함
+2025-06-15 12:17:04,218 - INFO - 검색 조건 설정 및 검색 실행 완료
+2025-06-15 12:17:04,234 - INFO - 사업보고서 개수: 11
+2025-06-15 12:17:04,530 - INFO - 스크린샷 저장: /playwright-crawler/screenshots/08_financial_statement_list_형지엘리트_1749989824.png
+2025-06-15 12:17:04,530 - INFO - 공시 연도 목록: ['2024', '2023', '2022', '2021', '2021', '2020', '2019', '2018', '2017', '2016', '2015']
+2025-06-15 12:17:04,530 - INFO - 재무제표 URL 목록 수: 11
+2025-06-15 12:17:04,530 - INFO - company 컬렉션 접근 성공
+2025-06-15 12:17:34,833 - ERROR - MongoDB COMPANY 컬렉션 저장 오류: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 684eb9b9311e6b956f0f82f3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-06-15 12:18:04,896 - ERROR - 실패 상태 저장 중 오류: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 684eb9b9311e6b956f0f82f3, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-06-15 12:18:04,896 - INFO - 기업 검색 및 재무제표 목록 조회 완료
+2025-06-15 12:18:04,903 - INFO - 페이지 종료 완료
+2025-06-15 12:18:04,914 - INFO - 컨텍스트 종료 완료
+2025-06-15 12:18:04,955 - INFO - 브라우저 종료 완료
+2025-06-15 12:18:04,964 - INFO - Playwright 정리 완료
+2025-06-15 12:18:04,986 - INFO - 정리 후 메모리 사용량: 117.81 MB
+2025-06-15 12:27:27,169 - INFO - 새 MongoClient 생성: mongodb://localhost:27017
+2025-06-15 12:27:27,250 - INFO - 기업명: 형지엘리트, 기업코드: 00441243, 주식코드: 093240
+2025-06-15 12:27:27,250 - INFO - 산업 분류 정보: {'level1': '제조업', 'level2': '의복, 의복 액세서리 및 모피제품 제조업', 'level3': '봉제의복 제조업', 'level4': '겉옷 제조업', 'level5': '여자용 겉옷 제조업'}
+2025-06-15 12:27:27,500 - INFO - Playwright 브라우저 컨텍스트 생성 완료
+2025-06-15 12:27:27,500 - INFO - DART 메인 페이지 로드 시도 1/3
+2025-06-15 12:27:28,983 - INFO - 스크린샷 저장: /playwright-crawler/screenshots/01_dart_main_loaded_형지엘리트_1749990448.png
+2025-06-15 12:27:28,983 - INFO - DART 메인 페이지 로드 성공. URL: https://dart.fss.or.kr/main.do
+2025-06-15 12:27:28,983 - INFO - 기업명 검색 시도 1/3: 형지엘리트
+2025-06-15 12:27:30,239 - INFO - 스크린샷 저장: /playwright-crawler/screenshots/02_search_input_filled_형지엘리트_1749990450.png
+2025-06-15 12:27:32,430 - INFO - 스크린샷 저장: /playwright-crawler/screenshots/03_search_results_형지엘리트_1749990452.png
+2025-06-15 12:27:32,430 - INFO - 기업명 검색 성공: 형지엘리트
+2025-06-15 12:27:32,436 - INFO - 기업 선택 창 표시 여부: False
+2025-06-15 12:27:32,436 - INFO - 검색 조건 설정 시작
+2025-06-15 12:27:32,499 - INFO - 기간 설정 완료: 최근 10년
+2025-06-15 12:27:32,546 - INFO - 공시유형 설정 완료: 사업보고서
+2025-06-15 12:27:32,594 - INFO - 세부 옵션 설정 완료: 정정공시 포함
+2025-06-15 12:27:33,626 - INFO - 검색 조건 설정 및 검색 실행 완료
+2025-06-15 12:27:33,642 - INFO - 사업보고서 개수: 11
+2025-06-15 12:27:33,916 - INFO - 스크린샷 저장: /playwright-crawler/screenshots/08_financial_statement_list_형지엘리트_1749990453.png
+2025-06-15 12:27:33,916 - INFO - 공시 연도 목록: ['2024', '2023', '2022', '2021', '2021', '2020', '2019', '2018', '2017', '2016', '2015']
+2025-06-15 12:27:33,917 - INFO - 재무제표 URL 목록 수: 11
+2025-06-15 12:27:33,917 - INFO - company 컬렉션 접근 성공
+2025-06-15 12:28:04,245 - ERROR - MongoDB COMPANY 컬렉션 저장 오류: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 684ebc2fbede75045e181827, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-06-15 12:28:34,311 - ERROR - 실패 상태 저장 중 오류: localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms), Timeout: 30s, Topology Description: <TopologyDescription id: 684ebc2fbede75045e181827, topology_type: Unknown, servers: [<ServerDescription ('localhost', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('localhost:27017: [Errno 111] Connection refused (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>]>
+2025-06-15 12:28:34,311 - INFO - 기업 검색 및 재무제표 목록 조회 완료
+2025-06-15 12:28:34,317 - INFO - 페이지 종료 완료
+2025-06-15 12:28:34,326 - INFO - 컨텍스트 종료 완료
+2025-06-15 12:28:34,355 - INFO - 브라우저 종료 완료
+2025-06-15 12:28:34,362 - INFO - Playwright 정리 완료
+2025-06-15 12:28:34,385 - INFO - 정리 후 메모리 사용량: 119.23 MB
+2025-06-15 13:45:58,902 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 13:45:58,902 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 13:45:59,112 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 13:46:00,178 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 13:46:00,262 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:19:09,887 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:19:09,887 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:19:10,100 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:19:11,197 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:19:11,284 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:21:07,358 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:21:07,358 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:21:07,577 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:21:09,674 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:21:09,744 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:29:12,880 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:29:12,880 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:29:13,106 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:29:14,214 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:29:14,329 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:32:52,444 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:32:52,444 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:32:52,670 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:32:54,018 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:32:54,140 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:32:56,158 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-15 14:33:07,643 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:33:07,643 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:33:07,848 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:33:08,909 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:33:09,015 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:33:11,037 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-15 14:33:11,037 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-15 14:36:45,068 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:36:45,068 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:36:45,303 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:36:46,375 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:36:46,497 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:36:48,513 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-15 14:36:48,514 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-15 14:36:48,516 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-15 14:40:58,125 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:40:58,125 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:40:58,346 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:40:59,445 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:40:59,567 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:41:01,783 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-15 14:41:01,783 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-15 14:41:01,786 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-15 14:41:01,798 - INFO - [collect_report_list] 행 1: 유
+							
+								형지엘리트 - 사업보고서 
+							(2024.06)
+2025-06-15 14:41:01,807 - INFO - [collect_report_list] 행 2: 유
+							
+								형지엘리트 - 사업보고서 
+							(2023.06)
+2025-06-15 14:41:01,815 - INFO - [collect_report_list] 행 3: 유
+							
+								형지엘리트 - 사업보고서 
+							(2022.06)
+2025-06-15 14:41:01,823 - INFO - [collect_report_list] 행 4: 유
+							
+								형지엘리트 - 사업보고서 
+							(2021.06)
+2025-06-15 14:41:01,830 - INFO - [collect_report_list] 행 5: 유
+							
+								형지엘리트 - 사업보고서제출기한연장신고서 
+							(2021.06)
+2025-06-15 14:41:01,838 - INFO - [collect_report_list] 행 6: 유
+							
+								형지엘리트 - 사업보고서 
+							(2020.06)
+2025-06-15 14:41:01,845 - INFO - [collect_report_list] 행 7: 유
+							
+								형지엘리트 - [기재정정]사업보고서 
+							(2019.06)
+2025-06-15 14:41:01,852 - INFO - [collect_report_list] 행 8: 유
+							
+								형지엘리트 - 사업보고서 
+							(2018.06)
+2025-06-15 14:41:01,860 - INFO - [collect_report_list] 행 9: 유
+							
+								형지엘리트 - 사업보고서 
+							(2017.06)
+2025-06-15 14:41:01,867 - INFO - [collect_report_list] 행 10: 유
+							
+								형지엘리트 - 사업보고서 
+							(2016.06)
+2025-06-15 14:41:01,874 - INFO - [collect_report_list] 행 11: 유
+							
+								형지엘리트 - 사업보고서 
+							(2015.06)
+2025-06-15 14:41:01,874 - INFO - [collect_report_list] 총 11개 보고서 정보 수집 완료
+2025-06-15 14:45:32,459 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:45:32,459 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:45:32,678 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:45:34,840 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:45:34,959 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:45:36,991 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-15 14:45:36,991 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-15 14:45:36,994 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-15 14:45:37,007 - INFO - [collect_report_list] 행 1: 형지엘리트 - 사업보고서 
+							(2024.06)
+2025-06-15 14:45:37,016 - INFO - [collect_report_list] 행 2: 형지엘리트 - 사업보고서 
+							(2023.06)
+2025-06-15 14:45:37,024 - INFO - [collect_report_list] 행 3: 형지엘리트 - 사업보고서 
+							(2022.06)
+2025-06-15 14:45:37,031 - INFO - [collect_report_list] 행 4: 형지엘리트 - 사업보고서 
+							(2021.06)
+2025-06-15 14:45:37,038 - INFO - [collect_report_list] 행 5: 형지엘리트 - 사업보고서제출기한연장신고서 
+							(2021.06)
+2025-06-15 14:45:37,045 - INFO - [collect_report_list] 행 6: 형지엘리트 - 사업보고서 
+							(2020.06)
+2025-06-15 14:45:37,052 - INFO - [collect_report_list] 행 7: 형지엘리트 - [기재정정]사업보고서 
+							(2019.06)
+2025-06-15 14:45:37,060 - INFO - [collect_report_list] 행 8: 형지엘리트 - 사업보고서 
+							(2018.06)
+2025-06-15 14:45:37,068 - INFO - [collect_report_list] 행 9: 형지엘리트 - 사업보고서 
+							(2017.06)
+2025-06-15 14:45:37,075 - INFO - [collect_report_list] 행 10: 형지엘리트 - 사업보고서 
+							(2016.06)
+2025-06-15 14:45:37,082 - INFO - [collect_report_list] 행 11: 형지엘리트 - 사업보고서 
+							(2015.06)
+2025-06-15 14:45:37,082 - INFO - [collect_report_list] 총 11개 보고서 정보 수집 완료
+2025-06-15 14:47:16,493 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:47:16,493 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:47:16,720 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:47:17,800 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:47:17,917 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:47:19,953 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-15 14:47:19,953 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-15 14:47:19,956 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-15 14:47:19,969 - INFO - [collect_report_list] 행 1: 형지엘리트 - 사업보고서 - 2024.06
+2025-06-15 14:47:19,980 - INFO - [collect_report_list] 행 2: 형지엘리트 - 사업보고서 - 2023.06
+2025-06-15 14:47:19,989 - INFO - [collect_report_list] 행 3: 형지엘리트 - 사업보고서 - 2022.06
+2025-06-15 14:47:19,997 - INFO - [collect_report_list] 행 4: 형지엘리트 - 사업보고서 - 2021.06
+2025-06-15 14:47:20,005 - INFO - [collect_report_list] 행 5: 형지엘리트 - 사업보고서제출기한연장신고서 - 2021.06
+2025-06-15 14:47:20,013 - INFO - [collect_report_list] 행 6: 형지엘리트 - 사업보고서 - 2020.06
+2025-06-15 14:47:20,021 - INFO - [collect_report_list] 행 7: 형지엘리트 - [기재정정]사업보고서 - 2019.06
+2025-06-15 14:47:20,030 - INFO - [collect_report_list] 행 8: 형지엘리트 - 사업보고서 - 2018.06
+2025-06-15 14:47:20,039 - INFO - [collect_report_list] 행 9: 형지엘리트 - 사업보고서 - 2017.06
+2025-06-15 14:47:20,047 - INFO - [collect_report_list] 행 10: 형지엘리트 - 사업보고서 - 2016.06
+2025-06-15 14:47:20,054 - INFO - [collect_report_list] 행 11: 형지엘리트 - 사업보고서 - 2015.06
+2025-06-15 14:47:20,054 - INFO - [collect_report_list] 총 11개 보고서 정보 수집 완료
+2025-06-15 14:48:14,866 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:48:14,867 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:48:15,086 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:48:16,153 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:48:16,263 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:48:18,300 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-15 14:48:18,300 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-15 14:48:18,303 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-15 14:48:18,316 - INFO - [collect_report_list] 행 1: 형지엘리트 - 사업보고서 - 2024.06
+2025-06-15 14:48:18,325 - INFO - [collect_report_list] 행 2: 형지엘리트 - 사업보고서 - 2023.06
+2025-06-15 14:48:18,333 - INFO - [collect_report_list] 행 3: 형지엘리트 - 사업보고서 - 2022.06
+2025-06-15 14:48:18,341 - INFO - [collect_report_list] 행 4: 형지엘리트 - 사업보고서 - 2021.06
+2025-06-15 14:48:18,349 - INFO - [collect_report_list] 행 5: 형지엘리트 - 사업보고서제출기한연장신고서 - 2021.06
+2025-06-15 14:48:18,357 - INFO - [collect_report_list] 행 6: 형지엘리트 - 사업보고서 - 2020.06
+2025-06-15 14:48:18,364 - INFO - [collect_report_list] 행 7: 형지엘리트 - [기재정정]사업보고서 - 2019.06
+2025-06-15 14:48:18,373 - INFO - [collect_report_list] 행 8: 형지엘리트 - 사업보고서 - 2018.06
+2025-06-15 14:48:18,381 - INFO - [collect_report_list] 행 9: 형지엘리트 - 사업보고서 - 2017.06
+2025-06-15 14:48:18,389 - INFO - [collect_report_list] 행 10: 형지엘리트 - 사업보고서 - 2016.06
+2025-06-15 14:48:18,396 - INFO - [collect_report_list] 행 11: 형지엘리트 - 사업보고서 - 2015.06
+2025-06-15 14:48:18,396 - INFO - [collect_report_list] 총 11개 보고서 정보 수집 완료
+2025-06-15 14:48:40,521 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:48:40,522 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:48:40,740 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:48:41,817 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:48:41,934 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:48:43,967 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-15 14:48:43,967 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-15 14:48:43,970 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-15 14:48:43,983 - INFO - [collect_report_list] 행 1: 형지엘리트 - 사업보고서 - 2024.06
+2025-06-15 14:48:43,993 - INFO - [collect_report_list] 행 2: 형지엘리트 - 사업보고서 - 2023.06
+2025-06-15 14:48:44,002 - INFO - [collect_report_list] 행 3: 형지엘리트 - 사업보고서 - 2022.06
+2025-06-15 14:48:44,010 - INFO - [collect_report_list] 행 4: 형지엘리트 - 사업보고서 - 2021.06
+2025-06-15 14:48:44,025 - INFO - [collect_report_list] 행 6: 형지엘리트 - 사업보고서 - 2020.06
+2025-06-15 14:48:44,032 - INFO - [collect_report_list] 행 7: 형지엘리트 - [기재정정]사업보고서 - 2019.06
+2025-06-15 14:48:44,041 - INFO - [collect_report_list] 행 8: 형지엘리트 - 사업보고서 - 2018.06
+2025-06-15 14:48:44,049 - INFO - [collect_report_list] 행 9: 형지엘리트 - 사업보고서 - 2017.06
+2025-06-15 14:48:44,056 - INFO - [collect_report_list] 행 10: 형지엘리트 - 사업보고서 - 2016.06
+2025-06-15 14:48:44,064 - INFO - [collect_report_list] 행 11: 형지엘리트 - 사업보고서 - 2015.06
+2025-06-15 14:48:44,064 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-15 14:51:20,913 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-15 14:51:20,913 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-15 14:51:21,128 - INFO - [init] 브라우저 초기화 완료
+2025-06-15 14:51:22,188 - INFO - [init] DART 페이지 접속 완료
+2025-06-15 14:51:22,311 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-15 14:51:24,341 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-15 14:51:24,341 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-15 14:51:24,345 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-15 14:51:24,434 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-15 14:51:24,434 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129 - 20240920000129
+2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174 - 20230919000174
+2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352 - 20220920000352
+2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667 - 20211006000667
+2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301 - 20200928000301
+2025-06-15 14:51:24,434 - INFO - 형지엘리트 - [기재정정]사업보고서 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570 - 20200130000570
+2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437 - 20180928000437
+2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307 - 20170928000307
+2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310 - 20160926000310
+2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093 - 20150921000093

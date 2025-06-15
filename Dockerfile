@@ -1,5 +1,7 @@
 FROM mcr.microsoft.com/playwright:v1.52.0-jammy
 
+ARG DEBIAN_FRONTEND=noninteractive
+
 # 환경 변수 설정
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
