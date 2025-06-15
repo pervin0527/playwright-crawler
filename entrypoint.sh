@@ -1,6 +1,14 @@
 #!/bin/bash
 set -e
 
+# Xvfb 가상 디스플레이 서버 시작
+echo "Xvfb 가상 디스플레이 서버 시작 중..."
+Xvfb :99 -screen 0 1920x1080x24 -ac &
+export DISPLAY=:99
+
+# Xvfb가 시작될 때까지 잠시 대기
+sleep 2
+
 # 필요한 초기화 작업 수행
 echo "컨테이너 시작됨"
 

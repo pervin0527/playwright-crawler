@@ -49,6 +49,9 @@ RUN apt-get update -q && \
       mecab \
       libmecab-dev \
       mecab-ipadic-utf8 \
+      xvfb \
+      x11vnc \
+      fluxbox \
       --no-install-recommends && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
@@ -59,7 +62,7 @@ COPY . /playwright-crawler
 RUN python3 -m pip install --upgrade pip
 RUN python3 -m pip install --no-cache-dir -r requirements.txt
 
-ENV DISPLAY=:0
+ENV DISPLAY=:99
 ENV PLAYWRIGHT_BROWSERS_PATH=/ms-playwright
 
 # 스크린샷 디렉토리 생성

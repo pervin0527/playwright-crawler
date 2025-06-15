@@ -4,3 +4,9 @@ pydantic
 pymongo
 playwright
 pytest
+psutil
+motor
+pytz
+pandas
+aiofiles
+aiohttp
