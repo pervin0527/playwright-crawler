@@ -368,3 +368,1864 @@ Call log:
 2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307 - 20170928000307
 2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310 - 20160926000310
 2025-06-15 14:51:24,434 - INFO - 형지엘리트 - 사업보고서 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093 - 20150921000093
+2025-06-16 01:59:38,897 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 01:59:38,897 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 01:59:39,112 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 01:59:40,340 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 01:59:40,451 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 01:59:42,505 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 01:59:42,505 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 01:59:42,509 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 01:59:42,522 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 01:59:42,531 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 01:59:42,539 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 01:59:42,547 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 01:59:42,562 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 01:59:42,569 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 01:59:42,577 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 01:59:42,585 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 01:59:42,593 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 01:59:42,599 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 01:59:42,599 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 01:59:42,599 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 01:59:42,599 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 01:59:42,599 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:28:38,283 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 02:28:38,283 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 02:28:38,502 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 02:28:39,492 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 02:28:39,604 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 02:28:41,619 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 02:28:41,619 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 02:28:41,622 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 02:28:41,633 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:28:41,641 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 02:28:41,649 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 02:28:41,656 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 02:28:41,670 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 02:28:41,678 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 02:28:41,684 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 02:28:41,691 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 02:28:41,699 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 02:28:41,706 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 02:28:41,706 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:28:41,706 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:28:41,706 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 02:28:41,706 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:28:42,464 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 02:30:08,189 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 02:30:08,189 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 02:30:08,426 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 02:30:09,447 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 02:30:09,565 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 02:30:11,581 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 02:30:11,581 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 02:30:11,585 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 02:30:11,598 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:30:11,607 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 02:30:11,616 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 02:30:11,624 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 02:30:11,639 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 02:30:11,647 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 02:30:11,655 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 02:30:11,662 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 02:30:11,670 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 02:30:11,677 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 02:30:11,677 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:30:11,677 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:30:11,677 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 02:30:11,677 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:30:12,409 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 02:30:12,419 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 0개
+2025-06-16 02:32:13,669 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 02:32:13,669 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 02:32:13,888 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 02:32:15,432 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 02:32:15,551 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 02:32:17,578 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 02:32:17,578 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 02:32:17,581 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 02:32:17,595 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:32:17,605 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 02:32:17,614 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 02:32:17,622 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 02:32:17,638 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 02:32:17,646 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 02:32:17,653 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 02:32:17,660 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 02:32:17,667 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 02:32:17,675 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 02:32:17,675 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:32:17,675 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:32:17,675 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 02:32:17,675 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:32:18,405 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 02:32:18,415 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 02:35:33,825 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 02:35:33,825 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 02:35:34,034 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 02:35:35,395 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 02:35:35,506 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 02:35:37,533 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 02:35:37,533 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 02:35:37,535 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 02:35:37,548 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:35:37,557 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 02:35:37,565 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 02:35:37,572 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 02:35:37,588 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 02:35:37,595 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 02:35:37,604 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 02:35:37,612 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 02:35:37,618 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 02:35:37,625 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 02:35:37,625 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:35:37,625 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:35:37,625 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 02:35:37,625 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:35:38,344 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 02:35:38,353 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 02:36:00,856 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 02:36:00,856 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 02:36:01,065 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 02:36:02,330 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 02:36:02,453 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 02:36:04,503 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 02:36:04,503 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 02:36:04,506 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 02:36:04,519 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:36:04,529 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 02:36:04,537 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 02:36:04,545 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 02:36:04,559 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 02:36:04,566 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 02:36:04,574 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 02:36:04,581 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 02:36:04,589 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 02:36:04,596 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 02:36:04,596 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:36:04,596 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:36:04,596 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 02:36:04,596 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:36:05,344 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 02:36:05,352 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 02:37:33,463 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 02:37:33,463 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 02:37:33,689 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 02:37:35,352 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 02:37:35,467 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 02:37:37,481 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 02:37:37,481 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 02:37:37,484 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 02:37:37,497 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:37:37,507 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 02:37:37,515 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 02:37:37,523 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 02:37:37,537 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 02:37:37,544 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 02:37:37,552 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 02:37:37,559 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 02:37:37,566 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 02:37:37,573 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 02:37:37,573 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:37:37,574 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 02:37:37,574 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 02:37:37,574 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 02:37:38,291 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 02:37:38,301 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 02:37:38,306 - INFO - [search_left_panel_tree] 레벨 1 노드: I. 회사의 개요
+2025-06-16 02:37:38,308 - INFO - [search_left_panel_tree] 레벨 1 노드: II. 사업의 내용
+2025-06-16 02:37:38,310 - INFO - [search_left_panel_tree] 레벨 1 노드: III. 재무에 관한 사항
+2025-06-16 02:37:38,312 - INFO - [search_left_panel_tree] 레벨 1 노드: 2. 연결재무제표
+2025-06-16 02:37:38,313 - INFO - [search_left_panel_tree] 레벨 1 노드: 4. 재무제표
+2025-06-16 02:37:38,315 - INFO - [search_left_panel_tree] 레벨 1 노드: V. 회계감사인의 감사의견 등
+2025-06-16 02:37:38,317 - INFO - [search_left_panel_tree] 레벨 1 노드: VI. 이사회 등 회사의 기관에 관한 사항
+2025-06-16 02:37:38,319 - INFO - [search_left_panel_tree] 레벨 1 노드: VIII. 임원 및 직원 등에 관한 사항
+2025-06-16 02:37:38,321 - INFO - [search_left_panel_tree] 레벨 1 노드: XI. 그 밖에 투자자 보호를 위하여 필요한 사항
+2025-06-16 02:37:38,323 - INFO - [search_left_panel_tree] 레벨 1 노드: XII. 상세표
+2025-06-16 02:37:38,325 - INFO - [search_left_panel_tree] 레벨 1 노드: 【 전문가의 확인 】
+2025-06-16 14:14:04,144 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:14:04,144 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:14:04,379 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:14:05,538 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:14:05,657 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:14:07,673 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:14:07,673 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:14:07,677 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:14:07,690 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:14:07,700 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:14:07,709 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:14:07,716 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:14:07,732 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:14:07,739 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:14:07,747 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:14:07,754 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:14:07,763 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:14:07,770 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:14:07,770 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:14:07,770 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:14:07,770 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:14:07,770 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:14:08,519 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:14:08,529 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:14:55,710 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:14:55,710 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:14:55,937 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:14:56,983 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:14:57,094 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:14:59,100 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:14:59,100 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:14:59,103 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:14:59,115 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:14:59,123 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:14:59,132 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:14:59,139 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:14:59,153 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:14:59,160 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:14:59,167 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:14:59,174 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:14:59,183 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:14:59,190 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:14:59,190 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:14:59,190 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:14:59,190 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:14:59,190 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:14:59,952 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:14:59,962 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:15:34,890 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:15:34,890 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:15:35,115 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:15:36,167 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:15:36,293 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:15:38,300 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:15:38,300 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:15:38,303 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:15:38,316 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:15:38,326 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:15:38,334 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:15:38,342 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:15:38,358 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:15:38,366 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:15:38,374 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:15:38,382 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:15:38,391 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:15:38,398 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:15:38,398 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:15:38,398 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:15:38,398 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:15:38,399 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:15:39,129 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:15:39,138 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:15:39,146 - INFO - [search_left_panel_tree] 재무에 관한 사항 노드 찾음: 2
+2025-06-16 14:24:13,821 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:24:13,822 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:24:14,035 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:24:15,101 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:24:15,217 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:24:17,249 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:24:17,249 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:24:17,252 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:24:17,264 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:24:17,271 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:24:17,279 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:24:17,286 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:24:17,300 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:24:17,307 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:24:17,314 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:24:17,322 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:24:17,330 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:24:17,338 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:24:17,338 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:24:17,338 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:24:17,338 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:24:17,338 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:24:18,077 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:24:18,086 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:24:18,094 - INFO - [search_left_panel_tree] 재무에 관한 사항 노드 찾음: 2
+2025-06-16 14:24:19,251 - INFO - [search_left_panel_tree] 재무에 관한 사항 하위 노드 수: 2
+2025-06-16 14:24:19,256 - INFO - [search_left_panel_tree] 재무에 관한 사항 하위 노드 1: 2. 연결재무제표
+2025-06-16 14:24:19,258 - INFO - [search_left_panel_tree] 재무에 관한 사항 하위 노드 2: 4. 재무제표
+2025-06-16 14:27:35,257 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:27:35,257 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:27:35,492 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:27:36,546 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:27:36,658 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:27:38,695 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:27:38,695 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:27:38,698 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:27:38,708 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:27:38,716 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:27:38,725 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:27:38,734 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:27:38,750 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:27:38,758 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:27:38,766 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:27:38,775 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:27:38,784 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:27:38,792 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:27:38,792 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:27:38,792 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:27:38,792 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:27:38,792 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:27:39,517 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:27:39,526 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:27:39,534 - INFO - [search_left_panel_tree] 재무에 관한 사항 노드 찾음: 3번째 노드
+2025-06-16 14:27:40,694 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-open 노드 수: 2
+2025-06-16 14:27:40,698 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-open 노드 1: 2. 연결재무제표
+2025-06-16 14:27:40,701 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-open 노드 하위 노드 수: 0
+2025-06-16 14:27:40,705 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-open 노드 2: 4. 재무제표
+2025-06-16 14:27:40,707 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-open 노드 하위 노드 수: 0
+2025-06-16 14:28:37,195 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:28:37,195 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:28:37,419 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:28:38,477 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:28:38,593 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:28:40,610 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:28:40,610 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:28:40,613 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:28:40,626 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:28:40,635 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:28:40,644 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:28:40,652 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:28:40,667 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:28:40,675 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:28:40,683 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:28:40,691 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:28:40,700 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:28:40,707 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:28:40,707 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:28:40,707 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:28:40,707 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:28:40,707 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:28:41,439 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:28:41,448 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:28:41,456 - INFO - [search_left_panel_tree] 재무에 관한 사항 노드 찾음: 3번째 노드
+2025-06-16 14:28:42,620 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-open 노드 수: 2
+2025-06-16 14:28:42,624 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-open 노드 1: 2. 연결재무제표
+2025-06-16 14:28:42,626 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-leaf 노드 수: 4
+2025-06-16 14:28:42,631 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-leaf 노드 1: 2-1. 연결 재무상태표
+2025-06-16 14:28:42,633 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-leaf 노드 2: 2-2. 연결 포괄손익계산서
+2025-06-16 14:28:42,636 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-leaf 노드 3: 2-3. 연결 자본변동표
+2025-06-16 14:28:42,638 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-leaf 노드 4: 2-4. 연결 현금흐름표
+2025-06-16 14:28:42,640 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-open 노드 2: 4. 재무제표
+2025-06-16 14:28:42,642 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-leaf 노드 수: 4
+2025-06-16 14:28:42,645 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-leaf 노드 1: 4-1. 재무상태표
+2025-06-16 14:28:42,647 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-leaf 노드 2: 4-2. 포괄손익계산서
+2025-06-16 14:28:42,649 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-leaf 노드 3: 4-3. 자본변동표
+2025-06-16 14:28:42,651 - INFO - [search_left_panel_tree] 재무에 관한 사항 jstree-leaf 노드 4: 4-4. 현금흐름표
+2025-06-16 14:31:46,627 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:31:46,627 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:31:46,846 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:31:47,900 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:31:48,022 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:31:50,051 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:31:50,051 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:31:50,054 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:31:50,067 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:31:50,076 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:31:50,084 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:31:50,092 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:31:50,107 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:31:50,115 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:31:50,122 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:31:50,129 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:31:50,137 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:31:50,144 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:31:50,144 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:31:50,144 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:31:50,144 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:31:50,144 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:31:51,192 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:31:51,203 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:31:51,210 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 14:31:52,347 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 2
+2025-06-16 14:31:52,352 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 14:31:52,354 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:31:52,358 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 14:31:52,360 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 14:31:52,363 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 14:31:52,365 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 14:31:52,367 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 14:31:52,369 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:31:52,373 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 14:31:52,376 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 14:31:52,378 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 14:31:52,380 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 14:44:56,491 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:44:56,491 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:44:56,699 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:44:57,772 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:44:57,886 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:44:59,901 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:44:59,902 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:44:59,905 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:44:59,918 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:44:59,927 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:44:59,936 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:44:59,943 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:44:59,958 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:44:59,965 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:44:59,974 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:44:59,982 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:44:59,989 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:44:59,996 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:44:59,996 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:44:59,996 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:44:59,996 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:44:59,996 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:45:00,748 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:45:00,756 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:45:00,763 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 14:45:01,919 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 14:45:01,923 - INFO - [search_left_panel_tree] level2 '1. 요약재무정보' 노드 발견
+2025-06-16 14:45:01,925 - INFO - [search_left_panel_tree] level2 '1. 요약재무정보' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:01,928 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 14:45:01,930 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 클래스: jstree-node  jstree-open
+2025-06-16 14:45:01,930 - INFO - [_process_financial_statement_node] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 14:45:01,932 - INFO - [_process_financial_statement_node] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:45:01,936 - INFO - [_process_financial_statement_node] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 14:45:01,937 - INFO - [_process_financial_statement_node] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 14:45:01,939 - INFO - [_process_financial_statement_node] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 14:45:01,939 - INFO - [_process_financial_statement_node] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 14:45:01,942 - INFO - [_process_financial_statement_node] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 14:45:01,944 - INFO - [_process_financial_statement_node] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 14:45:01,946 - INFO - [search_left_panel_tree] level2 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 14:45:01,948 - INFO - [search_left_panel_tree] level2 '2-1. 연결 재무상태표' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:01,950 - INFO - [search_left_panel_tree] level2 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 14:45:01,952 - INFO - [search_left_panel_tree] level2 '2-2. 연결 포괄손익계산서' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:01,954 - INFO - [search_left_panel_tree] level2 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 14:45:01,956 - INFO - [search_left_panel_tree] level2 '2-3. 연결 자본변동표' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:01,958 - INFO - [search_left_panel_tree] level2 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 14:45:01,960 - INFO - [search_left_panel_tree] level2 '2-4. 연결 현금흐름표' 노드 클래스: jstree-node  jstree-leaf jstree-last
+2025-06-16 14:45:01,962 - INFO - [search_left_panel_tree] level2 '3. 연결재무제표 주석' 노드 발견
+2025-06-16 14:45:01,964 - INFO - [search_left_panel_tree] level2 '3. 연결재무제표 주석' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:01,964 - INFO - [_process_financial_statement_node] level2 '3. 연결재무제표 주석' - leaf 노드로 바로 처리
+2025-06-16 14:45:01,964 - INFO - [_process_financial_statement_node] 타겟 노드 발견: 3. 연결재무제표 주석
+2025-06-16 14:45:01,966 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 14:45:01,968 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 클래스: jstree-node  jstree-open
+2025-06-16 14:45:01,968 - INFO - [_process_financial_statement_node] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 14:45:01,970 - INFO - [_process_financial_statement_node] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:45:01,973 - INFO - [_process_financial_statement_node] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 14:45:01,974 - INFO - [_process_financial_statement_node] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 14:45:01,976 - INFO - [_process_financial_statement_node] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 14:45:01,976 - INFO - [_process_financial_statement_node] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-16 14:45:01,978 - INFO - [_process_financial_statement_node] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 14:45:01,980 - INFO - [_process_financial_statement_node] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 14:45:01,982 - INFO - [search_left_panel_tree] level2 '4-1. 재무상태표' 노드 발견
+2025-06-16 14:45:01,984 - INFO - [search_left_panel_tree] level2 '4-1. 재무상태표' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:01,986 - INFO - [search_left_panel_tree] level2 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 14:45:01,988 - INFO - [search_left_panel_tree] level2 '4-2. 포괄손익계산서' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:01,990 - INFO - [search_left_panel_tree] level2 '4-3. 자본변동표' 노드 발견
+2025-06-16 14:45:01,992 - INFO - [search_left_panel_tree] level2 '4-3. 자본변동표' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:01,994 - INFO - [search_left_panel_tree] level2 '4-4. 현금흐름표' 노드 발견
+2025-06-16 14:45:01,996 - INFO - [search_left_panel_tree] level2 '4-4. 현금흐름표' 노드 클래스: jstree-node  jstree-leaf jstree-last
+2025-06-16 14:45:01,998 - INFO - [search_left_panel_tree] level2 '5. 재무제표 주석' 노드 발견
+2025-06-16 14:45:02,000 - INFO - [search_left_panel_tree] level2 '5. 재무제표 주석' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:02,000 - INFO - [_process_financial_statement_node] level2 '5. 재무제표 주석' - leaf 노드로 바로 처리
+2025-06-16 14:45:02,000 - INFO - [_process_financial_statement_node] 타겟 노드 발견: 5. 재무제표 주석
+2025-06-16 14:45:02,002 - INFO - [search_left_panel_tree] level2 '6. 배당에 관한 사항' 노드 발견
+2025-06-16 14:45:02,004 - INFO - [search_left_panel_tree] level2 '6. 배당에 관한 사항' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:02,006 - INFO - [search_left_panel_tree] level2 '7. 증권의 발행을 통한 자금조달에 관한 사항' 노드 발견
+2025-06-16 14:45:02,008 - INFO - [search_left_panel_tree] level2 '7. 증권의 발행을 통한 자금조달에 관한 사항' 노드 클래스: jstree-node  jstree-leaf
+2025-06-16 14:45:02,010 - INFO - [search_left_panel_tree] level2 '8. 기타 재무에 관한 사항' 노드 발견
+2025-06-16 14:45:02,011 - INFO - [search_left_panel_tree] level2 '8. 기타 재무에 관한 사항' 노드 클래스: jstree-node  jstree-leaf jstree-last
+2025-06-16 14:48:47,106 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:48:47,106 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:48:47,338 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:48:48,386 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:48:48,514 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:48:50,541 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:48:50,541 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:48:50,544 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:48:50,557 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:48:50,565 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:48:50,574 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:48:50,582 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:48:50,597 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:48:50,605 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:48:50,613 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:48:50,621 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:48:50,629 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:48:50,636 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:48:50,636 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:48:50,636 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:48:50,636 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:48:50,636 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:48:51,353 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:48:51,363 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:48:51,370 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 14:48:52,524 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 14:48:52,531 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 14:48:52,534 - INFO - [_process_financial_statement_node] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 14:48:52,536 - INFO - [_process_financial_statement_node] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:48:52,540 - INFO - [_process_financial_statement_node] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 14:48:52,540 - INFO - [_process_financial_statement_node] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 14:48:52,543 - INFO - [_process_financial_statement_node] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 14:48:52,543 - INFO - [_process_financial_statement_node] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 14:48:52,545 - INFO - [_process_financial_statement_node] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 14:48:52,547 - INFO - [_process_financial_statement_node] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 14:48:52,558 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 14:48:52,560 - INFO - [_process_financial_statement_node] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 14:48:52,562 - INFO - [_process_financial_statement_node] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:48:52,566 - INFO - [_process_financial_statement_node] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 14:48:52,566 - INFO - [_process_financial_statement_node] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 14:48:52,568 - INFO - [_process_financial_statement_node] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 14:48:52,568 - INFO - [_process_financial_statement_node] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-16 14:48:52,570 - INFO - [_process_financial_statement_node] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 14:48:52,573 - INFO - [_process_financial_statement_node] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 14:55:18,615 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:55:18,615 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:55:18,838 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:55:19,877 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:55:19,995 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:55:22,026 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:55:22,026 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:55:22,029 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:55:22,040 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:55:22,049 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:55:22,057 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:55:22,066 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:55:22,081 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:55:22,089 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:55:22,097 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:55:22,105 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:55:22,113 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:55:22,121 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:55:22,121 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:55:22,121 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:55:22,121 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:55:22,121 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:55:22,840 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:55:22,849 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:55:22,857 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 14:55:24,009 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 14:55:24,015 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 14:55:24,018 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 14:55:24,020 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:55:24,024 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 14:55:24,024 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 14:55:24,027 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 14:55:24,027 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 14:55:24,029 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 14:55:24,031 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 14:55:24,043 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 14:55:24,045 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 14:55:24,047 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:55:24,051 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 14:55:24,051 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 14:55:24,053 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 14:55:24,053 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-16 14:55:24,055 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 14:55:24,057 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 14:58:47,525 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:58:47,525 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:58:47,746 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:58:48,808 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:58:48,919 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:58:50,952 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:58:50,952 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:58:50,955 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:58:50,969 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:58:50,978 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:58:50,988 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:58:50,996 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:58:51,013 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:58:51,021 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:58:51,030 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:58:51,038 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:58:51,046 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:58:51,053 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:58:51,053 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:58:51,053 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:58:51,053 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:58:51,053 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:58:51,778 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:58:51,788 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:58:51,796 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 14:58:52,949 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 14:58:52,956 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 14:58:52,959 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 14:58:52,961 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:58:52,965 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 14:58:52,965 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 14:58:54,101 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 14:58:54,101 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 14:58:55,253 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 14:58:55,256 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 14:58:55,267 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 14:58:55,269 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 14:58:55,271 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:58:55,275 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 14:58:55,275 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 14:58:56,397 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 14:58:56,397 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-16 14:58:57,535 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 14:58:57,537 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 14:59:30,404 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 14:59:30,404 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 14:59:30,617 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 14:59:31,634 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 14:59:31,754 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 14:59:33,784 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 14:59:33,785 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 14:59:33,787 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 14:59:33,800 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:59:33,809 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 14:59:33,818 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 14:59:33,826 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 14:59:33,840 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 14:59:33,848 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 14:59:33,856 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 14:59:33,864 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 14:59:33,872 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 14:59:33,879 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 14:59:33,880 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:59:33,880 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 14:59:33,880 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 14:59:33,880 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 14:59:34,611 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 14:59:34,621 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 14:59:34,629 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 14:59:35,783 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 14:59:35,790 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 14:59:35,792 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 14:59:35,794 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:59:35,799 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 14:59:35,799 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 14:59:36,934 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 14:59:36,934 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 14:59:38,086 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 14:59:38,088 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 14:59:38,101 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 14:59:38,103 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 14:59:38,104 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 14:59:38,108 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 14:59:38,108 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 14:59:39,234 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 14:59:39,235 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-16 14:59:40,387 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 14:59:40,390 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 15:02:30,470 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 15:02:30,470 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 15:02:30,693 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 15:02:31,728 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 15:02:31,842 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 15:02:33,876 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 15:02:33,877 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 15:02:33,879 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 15:02:33,892 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 15:02:33,901 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 15:02:33,910 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 15:02:33,918 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 15:02:33,934 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 15:02:33,941 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 15:02:33,950 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 15:02:33,958 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 15:02:33,965 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 15:02:33,972 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 15:02:33,972 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 15:02:33,972 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 15:02:33,972 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 15:02:33,972 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 15:02:34,707 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 15:02:34,717 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 15:02:34,726 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 15:02:35,884 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 15:02:35,891 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 15:02:35,893 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 15:02:35,895 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 15:02:35,900 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 15:02:35,900 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 15:02:37,022 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:02:37,051 - INFO - [search_right_panel] nb 테이블 개수: 0
+2025-06-16 15:02:37,055 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 15:02:37,055 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 15:02:38,193 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:02:38,235 - INFO - [search_right_panel] nb 테이블 개수: 0
+2025-06-16 15:02:38,238 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 15:02:38,241 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 15:02:38,252 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 15:02:38,254 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 15:02:38,256 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 15:02:38,260 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 15:02:38,260 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 15:02:39,402 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:02:39,433 - INFO - [search_right_panel] nb 테이블 개수: 0
+2025-06-16 15:02:39,438 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 15:02:39,438 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-16 15:02:40,570 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:02:40,600 - INFO - [search_right_panel] nb 테이블 개수: 0
+2025-06-16 15:02:40,604 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 15:02:40,607 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 15:19:28,027 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 15:19:28,027 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 15:19:28,246 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 15:19:29,341 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 15:19:29,451 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 15:19:31,472 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 15:19:31,472 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 15:19:31,475 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 15:19:31,489 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 15:19:31,498 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 15:19:31,507 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 15:19:31,514 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 15:19:31,529 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 15:19:31,536 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 15:19:31,544 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 15:19:31,552 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 15:19:31,559 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 15:19:31,566 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 15:19:31,566 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 15:19:31,566 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 15:19:31,566 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 15:19:31,566 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 15:19:32,299 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 15:19:32,309 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 15:19:32,319 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 15:19:33,480 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 15:19:33,487 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 15:19:33,489 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 15:19:33,491 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 15:19:33,496 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 15:19:33,496 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 15:19:34,652 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:19:34,659 - INFO - [search_right_panel] iframe 요소 발견
+2025-06-16 15:19:39,679 - INFO - [search_right_panel] iframe body 로드 완료
+2025-06-16 15:19:39,684 - INFO - [search_right_panel] iframe body HTML (처음 1000자): 
+<p><br></p>
+<p class="table-group-xbrl"><a name="toc1">2-1. 연결 재무상태표</a></p>
+<table class="nb" width="669">
+<colgroup>
+<col width="669">
+</colgroup>
+<tbody>
+<tr height="31">
+  <td width="660" height="24" align="CENTER">
+<p style="font-size:12pt;font-weight:bold;">연결 재무상태표</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="660" height="23" align="CENTER">
+<p>제 23 기 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2024.06.30 현재</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="660" height="23" align="CENTER">
+<p>제 22 기 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2023.06.30 현재</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="660" height="23" align="CENTER">
+<p>제 21 기 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2022.06.30 현재</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="660" height="23" align="RIGHT" valign="BOTTOM">
+<p>(단위 : 원)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" width="674">
+<colgroup>
+<col width="287">
+<col width="129">
+<col width="129">
+<col width="129">
+</colgroup>
+<thead>
+<tr height="30">
+  <th width="278" height
+2025-06-16 15:19:39,686 - INFO - [search_right_panel] 선택자 '#nb'로 요소를 찾을 수 없음
+2025-06-16 15:19:39,688 - INFO - [search_right_panel] 선택자 'table'로 2개 요소 발견
+2025-06-16 15:19:39,702 - INFO - [search_right_panel] 요소 1: 태그=TABLE, ID=None, 클래스=nb
+2025-06-16 15:19:39,702 - INFO - [search_right_panel] 요소 1 내용 (처음 200자): 
+
+
+
+
+
+  
+연결 재무상태표
+
+
+
+  
+제 23 기          2024.06.30 현재
+
+
+
+  
+제 22 기          2023.06.30 현재
+
+
+
+  
+제 21 기          2022.06.30 현재
+
+
+
+  
+(단위 : 원)
+
+
+
+
+2025-06-16 15:19:39,712 - INFO - [search_right_panel] 요소 2: 태그=TABLE, ID=None, 클래스=None
+2025-06-16 15:19:39,712 - INFO - [search_right_panel] 요소 2 내용 (처음 200자): 
+
+
+
+
+
+
+
+
+  　
+  
+제 23 기
+
+  
+제 22 기
+
+  
+제 21 기
+
+
+
+
+
+  
+자산
+
+  　
+  　
+  　
+
+
+  
+　유동자산
+
+  
+92,103,185,493
+
+  
+70,799,227,485
+
+  
+62,186,943,491
+
+
+
+  
+　　현금및현금성자산
+
+  
+19,605,120,561
+
+  
+10,844,282,928
+
+  
+27,0
+2025-06-16 15:19:39,717 - INFO - [search_right_panel] content_frame 객체 획득 성공
+2025-06-16 15:19:39,720 - INFO - [search_right_panel] frame 전체 HTML (처음 1000자): <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html style="border:0"><head>
+<title></title>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="X-UA-TextLayoutMetrics" content="gdi">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="/css/report_xml.css">
+<style>span.highlight {background-color:#ffff00;} span.highlight.on {background-color:#ffb700;} .bookmark {background-color:#FFF0F0 !important; text-decoration:underline;}</style></head>
+<body bgcolor="#FFFFFF">
+<p><br></p>
+<p class="table-group-xbrl"><a name="toc1">2-1. 연결 재무상태표</a></p>
+<table class="nb" width="669">
+<colgroup>
+<col width="669">
+</colgroup>
+<tbody>
+<tr height="31">
+  <td width="660" height="24" align="CENTER">
+<p style="font-size:12pt;font-weight:bold;">연결 재무상태표</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="660" height="23" align="CENTER">
+<p>제 23 기 &nbsp; &nbsp; &nbsp; &nbsp; &nbs
+2025-06-16 15:19:39,721 - INFO - [search_right_panel] frame에서 선택자 '#nb'로 요소를 찾을 수 없음
+2025-06-16 15:19:39,722 - INFO - [search_right_panel] frame에서 선택자 'table'로 2개 요소 발견
+2025-06-16 15:19:39,731 - INFO - [search_right_panel] frame 요소 1: 태그=TABLE, ID=None, 클래스=nb
+2025-06-16 15:19:39,731 - INFO - [search_right_panel] frame 요소 1 내용 (처음 200자): 
+
+
+
+
+
+  
+연결 재무상태표
+
+
+
+  
+제 23 기          2024.06.30 현재
+
+
+
+  
+제 22 기          2023.06.30 현재
+
+
+
+  
+제 21 기          2022.06.30 현재
+
+
+
+  
+(단위 : 원)
+
+
+
+
+2025-06-16 15:19:39,740 - INFO - [search_right_panel] frame 요소 2: 태그=TABLE, ID=None, 클래스=None
+2025-06-16 15:19:39,740 - INFO - [search_right_panel] frame 요소 2 내용 (처음 200자): 
+
+
+
+
+
+
+
+
+  　
+  
+제 23 기
+
+  
+제 22 기
+
+  
+제 21 기
+
+
+
+
+
+  
+자산
+
+  　
+  　
+  　
+
+
+  
+　유동자산
+
+  
+92,103,185,493
+
+  
+70,799,227,485
+
+  
+62,186,943,491
+
+
+
+  
+　　현금및현금성자산
+
+  
+19,605,120,561
+
+  
+10,844,282,928
+
+  
+27,0
+2025-06-16 15:19:39,742 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 15:19:39,742 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 15:19:40,866 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:19:40,871 - INFO - [search_right_panel] iframe 요소 발견
+2025-06-16 15:19:45,890 - INFO - [search_right_panel] iframe body 로드 완료
+2025-06-16 15:19:45,896 - INFO - [search_right_panel] iframe body HTML (처음 1000자): 
+<p><br></p>
+<p class="table-group-xbrl"><a name="toc1">2-2. 연결 포괄손익계산서</a></p>
+<table class="nb" width="1006">
+<colgroup>
+<col width="1006">
+</colgroup>
+<tbody>
+<tr height="31">
+  <td width="997" height="24" align="CENTER">
+<p style="font-size:12pt;font-weight:bold;">연결 포괄손익계산서</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="997" height="23" align="CENTER">
+<p>제 23 기 2023.07.01 부터 2024.06.30 까지</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="997" height="23" align="CENTER">
+<p>제 22 기 2022.07.01 부터 2023.06.30 까지</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="997" height="23" align="CENTER">
+<p>제 21 기 2021.07.01 부터 2022.06.30 까지</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="997" height="23" align="RIGHT" valign="BOTTOM">
+<p>(단위 : 원)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" width="1011">
+<colgroup>
+<col width="628">
+<col width="129">
+<col width="125">
+<col width="129">
+</colgroup>
+<thead>
+<tr height="30">
+  <th width="619" height="23">　</th>
+  <th width="120" height="23">
+<p>제 23 기
+2025-06-16 15:19:45,899 - INFO - [search_right_panel] 선택자 '#nb'로 요소를 찾을 수 없음
+2025-06-16 15:19:45,901 - INFO - [search_right_panel] 선택자 'table'로 2개 요소 발견
+2025-06-16 15:19:45,916 - INFO - [search_right_panel] 요소 1: 태그=TABLE, ID=None, 클래스=nb
+2025-06-16 15:19:45,916 - INFO - [search_right_panel] 요소 1 내용 (처음 200자): 
+
+
+
+
+
+  
+연결 포괄손익계산서
+
+
+
+  
+제 23 기 2023.07.01 부터 2024.06.30 까지
+
+
+
+  
+제 22 기 2022.07.01 부터 2023.06.30 까지
+
+
+
+  
+제 21 기 2021.07.01 부터 2022.06.30 까지
+
+
+
+  
+(단위 : 원)
+
+
+
+
+2025-06-16 15:19:45,929 - INFO - [search_right_panel] 요소 2: 태그=TABLE, ID=None, 클래스=None
+2025-06-16 15:19:45,929 - INFO - [search_right_panel] 요소 2 내용 (처음 200자): 
+
+
+
+
+
+
+
+
+  　
+  
+제 23 기
+
+  
+제 22 기
+
+  
+제 21 기
+
+
+
+
+
+  
+수익(매출액)
+
+  
+132,748,313,784
+
+  
+94,485,977,330
+
+  
+137,271,368,719
+
+
+
+  
+매출원가
+
+  
+104,438,276,197
+
+  
+75,679,287,059
+
+  
+85,044,474,497
+
+
+
+  
+매출총이익
+2025-06-16 15:19:45,933 - INFO - [search_right_panel] content_frame 객체 획득 성공
+2025-06-16 15:19:45,937 - INFO - [search_right_panel] frame 전체 HTML (처음 1000자): <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html style="border:0"><head>
+<title></title>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="X-UA-TextLayoutMetrics" content="gdi">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="/css/report_xml.css">
+<style>span.highlight {background-color:#ffff00;} span.highlight.on {background-color:#ffb700;} .bookmark {background-color:#FFF0F0 !important; text-decoration:underline;}</style></head>
+<body bgcolor="#FFFFFF">
+<p><br></p>
+<p class="table-group-xbrl"><a name="toc1">2-2. 연결 포괄손익계산서</a></p>
+<table class="nb" width="1006">
+<colgroup>
+<col width="1006">
+</colgroup>
+<tbody>
+<tr height="31">
+  <td width="997" height="24" align="CENTER">
+<p style="font-size:12pt;font-weight:bold;">연결 포괄손익계산서</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="997" height="23" align="CENTER">
+<p>제 23 기 2023.07.01 부터 2024.06.30 까
+2025-06-16 15:19:45,938 - INFO - [search_right_panel] frame에서 선택자 '#nb'로 요소를 찾을 수 없음
+2025-06-16 15:19:45,939 - INFO - [search_right_panel] frame에서 선택자 'table'로 2개 요소 발견
+2025-06-16 15:19:45,948 - INFO - [search_right_panel] frame 요소 1: 태그=TABLE, ID=None, 클래스=nb
+2025-06-16 15:19:45,948 - INFO - [search_right_panel] frame 요소 1 내용 (처음 200자): 
+
+
+
+
+
+  
+연결 포괄손익계산서
+
+
+
+  
+제 23 기 2023.07.01 부터 2024.06.30 까지
+
+
+
+  
+제 22 기 2022.07.01 부터 2023.06.30 까지
+
+
+
+  
+제 21 기 2021.07.01 부터 2022.06.30 까지
+
+
+
+  
+(단위 : 원)
+
+
+
+
+2025-06-16 15:19:45,956 - INFO - [search_right_panel] frame 요소 2: 태그=TABLE, ID=None, 클래스=None
+2025-06-16 15:19:45,956 - INFO - [search_right_panel] frame 요소 2 내용 (처음 200자): 
+
+
+
+
+
+
+
+
+  　
+  
+제 23 기
+
+  
+제 22 기
+
+  
+제 21 기
+
+
+
+
+
+  
+수익(매출액)
+
+  
+132,748,313,784
+
+  
+94,485,977,330
+
+  
+137,271,368,719
+
+
+
+  
+매출원가
+
+  
+104,438,276,197
+
+  
+75,679,287,059
+
+  
+85,044,474,497
+
+
+
+  
+매출총이익
+2025-06-16 15:19:45,959 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 15:19:45,961 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 15:19:45,973 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 15:19:45,976 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 15:19:45,978 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 15:19:45,982 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 15:19:45,982 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 15:19:47,100 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:19:47,104 - INFO - [search_right_panel] iframe 요소 발견
+2025-06-16 15:19:52,123 - INFO - [search_right_panel] iframe body 로드 완료
+2025-06-16 15:19:52,130 - INFO - [search_right_panel] iframe body HTML (처음 1000자): 
+<p><br></p>
+<p class="table-group-xbrl"><a name="toc1">4-1. 재무상태표</a></p>
+<table class="nb" width="654">
+<colgroup>
+<col width="654">
+</colgroup>
+<tbody>
+<tr height="31">
+  <td width="645" height="24" align="CENTER">
+<p style="font-size:12pt;font-weight:bold;">재무상태표</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="645" height="23" align="CENTER">
+<p>제 23 기 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2024.06.30 현재</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="645" height="23" align="CENTER">
+<p>제 22 기 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2023.06.30 현재</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="645" height="23" align="CENTER">
+<p>제 21 기 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2022.06.30 현재</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="645" height="23" align="RIGHT" valign="BOTTOM">
+<p>(단위 : 원)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" width="658">
+<colgroup>
+<col width="271">
+<col width="129">
+<col width="129">
+<col width="129">
+</colgroup>
+<thead>
+<tr height="30">
+  <th width="262" height="23">
+2025-06-16 15:19:52,132 - INFO - [search_right_panel] 선택자 '#nb'로 요소를 찾을 수 없음
+2025-06-16 15:19:52,134 - INFO - [search_right_panel] 선택자 'table'로 2개 요소 발견
+2025-06-16 15:19:52,148 - INFO - [search_right_panel] 요소 1: 태그=TABLE, ID=None, 클래스=nb
+2025-06-16 15:19:52,148 - INFO - [search_right_panel] 요소 1 내용 (처음 200자): 
+
+
+
+
+
+  
+재무상태표
+
+
+
+  
+제 23 기          2024.06.30 현재
+
+
+
+  
+제 22 기          2023.06.30 현재
+
+
+
+  
+제 21 기          2022.06.30 현재
+
+
+
+  
+(단위 : 원)
+
+
+
+
+2025-06-16 15:19:52,160 - INFO - [search_right_panel] 요소 2: 태그=TABLE, ID=None, 클래스=None
+2025-06-16 15:19:52,160 - INFO - [search_right_panel] 요소 2 내용 (처음 200자): 
+
+
+
+
+
+
+
+
+  　
+  
+제 23 기
+
+  
+제 22 기
+
+  
+제 21 기
+
+
+
+
+
+  
+자산
+
+  　
+  　
+  　
+
+
+  
+　유동자산
+
+  
+90,688,711,897
+
+  
+69,776,387,342
+
+  
+60,457,103,154
+
+
+
+  
+　　현금및현금성자산
+
+  
+18,940,266,083
+
+  
+10,255,551,069
+
+  
+26,5
+2025-06-16 15:19:52,164 - INFO - [search_right_panel] content_frame 객체 획득 성공
+2025-06-16 15:19:52,167 - INFO - [search_right_panel] frame 전체 HTML (처음 1000자): <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html style="border:0"><head>
+<title></title>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="X-UA-TextLayoutMetrics" content="gdi">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="/css/report_xml.css">
+<style>span.highlight {background-color:#ffff00;} span.highlight.on {background-color:#ffb700;} .bookmark {background-color:#FFF0F0 !important; text-decoration:underline;}</style></head>
+<body bgcolor="#FFFFFF">
+<p><br></p>
+<p class="table-group-xbrl"><a name="toc1">4-1. 재무상태표</a></p>
+<table class="nb" width="654">
+<colgroup>
+<col width="654">
+</colgroup>
+<tbody>
+<tr height="31">
+  <td width="645" height="24" align="CENTER">
+<p style="font-size:12pt;font-weight:bold;">재무상태표</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="645" height="23" align="CENTER">
+<p>제 23 기 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2024
+2025-06-16 15:19:52,169 - INFO - [search_right_panel] frame에서 선택자 '#nb'로 요소를 찾을 수 없음
+2025-06-16 15:19:52,170 - INFO - [search_right_panel] frame에서 선택자 'table'로 2개 요소 발견
+2025-06-16 15:19:52,178 - INFO - [search_right_panel] frame 요소 1: 태그=TABLE, ID=None, 클래스=nb
+2025-06-16 15:19:52,178 - INFO - [search_right_panel] frame 요소 1 내용 (처음 200자): 
+
+
+
+
+
+  
+재무상태표
+
+
+
+  
+제 23 기          2024.06.30 현재
+
+
+
+  
+제 22 기          2023.06.30 현재
+
+
+
+  
+제 21 기          2022.06.30 현재
+
+
+
+  
+(단위 : 원)
+
+
+
+
+2025-06-16 15:19:52,186 - INFO - [search_right_panel] frame 요소 2: 태그=TABLE, ID=None, 클래스=None
+2025-06-16 15:19:52,187 - INFO - [search_right_panel] frame 요소 2 내용 (처음 200자): 
+
+
+
+
+
+
+
+
+  　
+  
+제 23 기
+
+  
+제 22 기
+
+  
+제 21 기
+
+
+
+
+
+  
+자산
+
+  　
+  　
+  　
+
+
+  
+　유동자산
+
+  
+90,688,711,897
+
+  
+69,776,387,342
+
+  
+60,457,103,154
+
+
+
+  
+　　현금및현금성자산
+
+  
+18,940,266,083
+
+  
+10,255,551,069
+
+  
+26,5
+2025-06-16 15:19:52,189 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 15:19:52,189 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-16 15:19:53,315 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:19:53,319 - INFO - [search_right_panel] iframe 요소 발견
+2025-06-16 15:19:58,338 - INFO - [search_right_panel] iframe body 로드 완료
+2025-06-16 15:19:58,343 - INFO - [search_right_panel] iframe body HTML (처음 1000자): 
+<p><br></p>
+<p class="table-group-xbrl"><a name="toc1">4-2. 포괄손익계산서</a></p>
+<table class="nb" width="621">
+<colgroup>
+<col width="621">
+</colgroup>
+<tbody>
+<tr height="31">
+  <td width="612" height="24" align="CENTER">
+<p style="font-size:12pt;font-weight:bold;">포괄손익계산서</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="612" height="23" align="CENTER">
+<p>제 23 기 2023.07.01 부터 2024.06.30 까지</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="612" height="23" align="CENTER">
+<p>제 22 기 2022.07.01 부터 2023.06.30 까지</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="612" height="23" align="CENTER">
+<p>제 21 기 2021.07.01 부터 2022.06.30 까지</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="612" height="23" align="RIGHT" valign="BOTTOM">
+<p>(단위 : 원)</p>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="1" width="624">
+<colgroup>
+<col width="249">
+<col width="129">
+<col width="125">
+<col width="121">
+</colgroup>
+<thead>
+<tr height="30">
+  <th width="240" height="23">　</th>
+  <th width="120" height="23">
+<p>제 23 기</p>
+</th
+2025-06-16 15:19:58,345 - INFO - [search_right_panel] 선택자 '#nb'로 요소를 찾을 수 없음
+2025-06-16 15:19:58,347 - INFO - [search_right_panel] 선택자 'table'로 2개 요소 발견
+2025-06-16 15:19:58,361 - INFO - [search_right_panel] 요소 1: 태그=TABLE, ID=None, 클래스=nb
+2025-06-16 15:19:58,361 - INFO - [search_right_panel] 요소 1 내용 (처음 200자): 
+
+
+
+
+
+  
+포괄손익계산서
+
+
+
+  
+제 23 기 2023.07.01 부터 2024.06.30 까지
+
+
+
+  
+제 22 기 2022.07.01 부터 2023.06.30 까지
+
+
+
+  
+제 21 기 2021.07.01 부터 2022.06.30 까지
+
+
+
+  
+(단위 : 원)
+
+
+
+
+2025-06-16 15:19:58,372 - INFO - [search_right_panel] 요소 2: 태그=TABLE, ID=None, 클래스=None
+2025-06-16 15:19:58,372 - INFO - [search_right_panel] 요소 2 내용 (처음 200자): 
+
+
+
+
+
+
+
+
+  　
+  
+제 23 기
+
+  
+제 22 기
+
+  
+제 21 기
+
+
+
+
+
+  
+수익(매출액)
+
+  
+131,848,741,012
+
+  
+92,856,998,017
+
+  
+53,613,583,949
+
+
+
+  
+매출원가
+
+  
+105,344,738,421
+
+  
+75,827,402,153
+
+  
+41,965,682,379
+
+
+
+  
+매출총이익
+
+2025-06-16 15:19:58,376 - INFO - [search_right_panel] content_frame 객체 획득 성공
+2025-06-16 15:19:58,379 - INFO - [search_right_panel] frame 전체 HTML (처음 1000자): <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html style="border:0"><head>
+<title></title>
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="X-UA-TextLayoutMetrics" content="gdi">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="/css/report_xml.css">
+<style>span.highlight {background-color:#ffff00;} span.highlight.on {background-color:#ffb700;} .bookmark {background-color:#FFF0F0 !important; text-decoration:underline;}</style></head>
+<body bgcolor="#FFFFFF">
+<p><br></p>
+<p class="table-group-xbrl"><a name="toc1">4-2. 포괄손익계산서</a></p>
+<table class="nb" width="621">
+<colgroup>
+<col width="621">
+</colgroup>
+<tbody>
+<tr height="31">
+  <td width="612" height="24" align="CENTER">
+<p style="font-size:12pt;font-weight:bold;">포괄손익계산서</p>
+</td>
+</tr>
+<tr height="30">
+  <td width="612" height="23" align="CENTER">
+<p>제 23 기 2023.07.01 부터 2024.06.30 까지</p>
+</
+2025-06-16 15:19:58,381 - INFO - [search_right_panel] frame에서 선택자 '#nb'로 요소를 찾을 수 없음
+2025-06-16 15:19:58,382 - INFO - [search_right_panel] frame에서 선택자 'table'로 2개 요소 발견
+2025-06-16 15:19:58,390 - INFO - [search_right_panel] frame 요소 1: 태그=TABLE, ID=None, 클래스=nb
+2025-06-16 15:19:58,390 - INFO - [search_right_panel] frame 요소 1 내용 (처음 200자): 
+
+
+
+
+
+  
+포괄손익계산서
+
+
+
+  
+제 23 기 2023.07.01 부터 2024.06.30 까지
+
+
+
+  
+제 22 기 2022.07.01 부터 2023.06.30 까지
+
+
+
+  
+제 21 기 2021.07.01 부터 2022.06.30 까지
+
+
+
+  
+(단위 : 원)
+
+
+
+
+2025-06-16 15:19:58,398 - INFO - [search_right_panel] frame 요소 2: 태그=TABLE, ID=None, 클래스=None
+2025-06-16 15:19:58,398 - INFO - [search_right_panel] frame 요소 2 내용 (처음 200자): 
+
+
+
+
+
+
+
+
+  　
+  
+제 23 기
+
+  
+제 22 기
+
+  
+제 21 기
+
+
+
+
+
+  
+수익(매출액)
+
+  
+131,848,741,012
+
+  
+92,856,998,017
+
+  
+53,613,583,949
+
+
+
+  
+매출원가
+
+  
+105,344,738,421
+
+  
+75,827,402,153
+
+  
+41,965,682,379
+
+
+
+  
+매출총이익
+
+2025-06-16 15:19:58,413 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 15:19:58,415 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 15:24:08,356 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 15:24:08,356 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 15:24:08,569 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 15:24:09,620 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 15:24:09,742 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 15:24:11,760 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 15:24:11,760 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 15:24:11,763 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 15:24:11,775 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 15:24:11,783 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 15:24:11,792 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 15:24:11,799 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 15:24:11,813 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 15:24:11,820 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 15:24:11,828 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 15:24:11,835 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 15:24:11,842 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 15:24:11,849 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 15:24:11,849 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 15:24:11,849 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 15:24:11,849 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 15:24:11,849 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 15:24:12,567 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 15:24:12,577 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 15:24:12,584 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 15:24:13,742 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 15:24:13,748 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 15:24:13,750 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 15:24:13,752 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 15:24:13,757 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 15:24:13,757 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 15:24:14,889 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:24:17,918 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 15:24:17,928 - INFO - [search_right_panel] 제목 테이블 1: 연결 재무상태표       제 23 기          2024.06.30 현재       제 22 기          2023.06.30 현재       제 21 기          2022.06.30 현재       (단위 : 원)
+2025-06-16 15:24:17,933 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 15:24:17,936 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-16 15:24:17,942 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 15:24:17,947 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 15:24:17,950 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 15:24:17,953 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 15:24:17,956 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 15:24:17,958 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 15:24:17,976 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-16 15:24:17,993 - INFO - [search_right_panel] 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-16 15:24:18,008 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-16 15:24:18,023 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-16 15:24:18,038 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-16 15:24:18,040 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 15:24:18,040 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 15:24:19,171 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:24:22,197 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 15:24:22,207 - INFO - [search_right_panel] 제목 테이블 1: 연결 포괄손익계산서       제 23 기 2023.07.01 부터 2024.06.30 까지       제 22 기 2022.07.01 부터 2023.06.30 까지       제 21 기 2021.07.01 부터 2022.06.30 까지       (단위 : 원)
+2025-06-16 15:24:22,211 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 15:24:22,214 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-16 15:24:22,219 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 15:24:22,225 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 15:24:22,228 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 15:24:22,230 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 15:24:22,233 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 15:24:22,236 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 15:24:22,253 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-16 15:24:22,269 - INFO - [search_right_panel] 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-16 15:24:22,284 - INFO - [search_right_panel] 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-16 15:24:22,299 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-16 15:24:22,314 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-16 15:24:22,316 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 15:24:22,318 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 15:24:22,331 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 15:24:22,333 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 15:24:22,335 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 15:24:22,339 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 15:24:22,339 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 15:24:23,473 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:24:26,501 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 15:24:26,510 - INFO - [search_right_panel] 제목 테이블 1: 재무상태표       제 23 기          2024.06.30 현재       제 22 기          2023.06.30 현재       제 21 기          2022.06.30 현재       (단위 : 원)
+2025-06-16 15:24:26,514 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 15:24:26,516 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-16 15:24:26,521 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 15:24:26,526 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 15:24:26,528 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 15:24:26,531 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 15:24:26,533 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 15:24:26,536 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 15:24:26,552 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-16 15:24:26,566 - INFO - [search_right_panel] 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-16 15:24:26,580 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-16 15:24:26,594 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-16 15:24:26,609 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-16 15:24:26,611 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 15:24:26,612 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-16 15:24:27,738 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 15:24:30,763 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 15:24:30,772 - INFO - [search_right_panel] 제목 테이블 1: 포괄손익계산서       제 23 기 2023.07.01 부터 2024.06.30 까지       제 22 기 2022.07.01 부터 2023.06.30 까지       제 21 기 2021.07.01 부터 2022.06.30 까지       (단위 : 원)
+2025-06-16 15:24:30,788 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 15:24:30,791 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-16 15:24:30,795 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 15:24:30,799 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 15:24:30,801 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 15:24:30,803 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 15:24:30,806 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 15:24:30,808 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 15:24:30,823 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-16 15:24:30,835 - INFO - [search_right_panel] 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-16 15:24:30,848 - INFO - [search_right_panel] 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-16 15:24:30,861 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-16 15:24:30,873 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-16 15:24:30,875 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 15:24:30,877 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
