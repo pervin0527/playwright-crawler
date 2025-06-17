@@ -2229,3 +2229,1557 @@ Call log:
 2025-06-16 15:24:30,873 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
 2025-06-16 15:24:30,875 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
 2025-06-16 15:24:30,877 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 23:30:32,623 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 23:30:32,623 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 23:30:32,827 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 23:30:34,182 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 23:30:34,289 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 23:30:36,306 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 23:30:36,306 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 23:30:36,309 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 23:30:36,322 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 23:30:36,332 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 23:30:36,341 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 23:30:36,348 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 23:30:36,359 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 23:30:36,365 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 23:30:36,373 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 23:30:36,379 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 23:30:36,386 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 23:30:36,392 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 23:30:36,392 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 23:30:36,392 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 23:30:36,392 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 23:30:36,392 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 23:30:37,150 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 23:30:37,160 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 23:30:37,168 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 23:30:38,318 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 23:30:38,326 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 23:30:38,328 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 23:30:38,330 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 23:30:38,334 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 23:30:38,334 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 23:30:39,469 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:30:40,496 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:30:40,506 - INFO - [search_right_panel] 제목 테이블 1: 연결 재무상태표       제 23 기          2024.06.30 현재       제 22 기          2023.06.30 현재       제 21 기          2022.06.30 현재       (단위 : 원)
+2025-06-16 23:30:40,510 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:30:40,513 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-16 23:30:40,518 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:30:40,523 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:30:40,527 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:30:40,529 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:30:40,532 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:30:40,535 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:30:40,554 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-16 23:30:40,569 - INFO - [search_right_panel] 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-16 23:30:40,583 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-16 23:30:40,598 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-16 23:30:40,614 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-16 23:30:40,617 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 23:30:40,617 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 23:30:41,740 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:30:42,766 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:30:42,775 - INFO - [search_right_panel] 제목 테이블 1: 연결 포괄손익계산서       제 23 기 2023.07.01 부터 2024.06.30 까지       제 22 기 2022.07.01 부터 2023.06.30 까지       제 21 기 2021.07.01 부터 2022.06.30 까지       (단위 : 원)
+2025-06-16 23:30:42,779 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:30:42,781 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-16 23:30:42,786 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:30:42,792 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:30:42,794 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:30:42,797 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:30:42,800 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:30:42,802 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:30:42,819 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-16 23:30:42,834 - INFO - [search_right_panel] 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-16 23:30:42,849 - INFO - [search_right_panel] 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-16 23:30:42,865 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-16 23:30:42,880 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-16 23:30:42,882 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 23:30:42,884 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 23:30:42,895 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 23:30:42,897 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 23:30:42,899 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 23:30:42,903 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 23:30:42,903 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 23:30:44,023 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:30:45,047 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:30:45,057 - INFO - [search_right_panel] 제목 테이블 1: 재무상태표       제 23 기          2024.06.30 현재       제 22 기          2023.06.30 현재       제 21 기          2022.06.30 현재       (단위 : 원)
+2025-06-16 23:30:45,061 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:30:45,063 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-16 23:30:45,068 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:30:45,073 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:30:45,076 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:30:45,078 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:30:45,081 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:30:45,083 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:30:45,099 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-16 23:30:45,114 - INFO - [search_right_panel] 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-16 23:30:45,128 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-16 23:30:45,142 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-16 23:30:45,157 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-16 23:30:45,159 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 23:30:45,159 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-16 23:30:46,288 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:30:47,313 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:30:47,321 - INFO - [search_right_panel] 제목 테이블 1: 포괄손익계산서       제 23 기 2023.07.01 부터 2024.06.30 까지       제 22 기 2022.07.01 부터 2023.06.30 까지       제 21 기 2021.07.01 부터 2022.06.30 까지       (단위 : 원)
+2025-06-16 23:30:47,326 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:30:47,341 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-16 23:30:47,345 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:30:47,349 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:30:47,352 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:30:47,354 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:30:47,357 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:30:47,359 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:30:47,374 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-16 23:30:47,387 - INFO - [search_right_panel] 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-16 23:30:47,400 - INFO - [search_right_panel] 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-16 23:30:47,413 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-16 23:30:47,426 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-16 23:30:47,428 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 23:30:47,430 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 23:59:11,757 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 23:59:11,757 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 23:59:11,984 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 23:59:13,148 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 23:59:13,273 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 23:59:15,304 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 23:59:15,304 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 23:59:15,307 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 23:59:15,319 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 23:59:15,329 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 23:59:15,337 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 23:59:15,345 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 23:59:15,359 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 23:59:15,366 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 23:59:15,375 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 23:59:15,383 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 23:59:15,389 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 23:59:15,395 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 23:59:15,396 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 23:59:15,396 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 23:59:15,396 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 23:59:15,396 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 23:59:16,117 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 23:59:16,126 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 23:59:16,134 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 23:59:17,284 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 23:59:17,290 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 23:59:17,292 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 23:59:17,294 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 23:59:17,299 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 23:59:17,299 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 23:59:18,421 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:59:19,448 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:59:19,481 - INFO - [search_right_panel] 제목 테이블 1: [None, None, None, None, None]
+2025-06-16 23:59:19,486 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:59:19,488 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-16 23:59:19,492 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:59:19,498 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:59:19,500 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:59:19,503 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:59:19,505 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:59:19,508 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:59:19,525 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-16 23:59:19,540 - INFO - [search_right_panel] 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-16 23:59:19,554 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-16 23:59:19,569 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-16 23:59:19,584 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-16 23:59:19,586 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 23:59:19,586 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 23:59:20,718 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:59:21,745 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:59:21,777 - INFO - [search_right_panel] 제목 테이블 1: [None, None, None, None, None]
+2025-06-16 23:59:21,781 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:59:21,783 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-16 23:59:21,788 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:59:21,793 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:59:21,795 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:59:21,798 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:59:21,801 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:59:21,803 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:59:21,819 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-16 23:59:21,833 - INFO - [search_right_panel] 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-16 23:59:21,846 - INFO - [search_right_panel] 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-16 23:59:21,859 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-16 23:59:21,872 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-16 23:59:21,874 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 23:59:21,876 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 23:59:21,888 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 23:59:21,889 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 23:59:21,891 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 23:59:21,894 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 23:59:21,894 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 23:59:23,017 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:59:24,042 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:59:24,073 - INFO - [search_right_panel] 제목 테이블 1: [None, None, None, None, None]
+2025-06-16 23:59:24,078 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:59:24,080 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-16 23:59:24,084 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:59:24,089 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:59:24,091 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:59:24,094 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:59:24,097 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:59:24,099 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:59:24,116 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-16 23:59:24,129 - INFO - [search_right_panel] 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-16 23:59:24,157 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-16 23:59:24,171 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-16 23:59:24,185 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-16 23:59:24,187 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 23:59:24,187 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-16 23:59:25,321 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:59:26,346 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:59:26,377 - INFO - [search_right_panel] 제목 테이블 1: [None, None, None, None, None]
+2025-06-16 23:59:26,381 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:59:26,383 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-16 23:59:26,387 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:59:26,391 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:59:26,394 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:59:26,396 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:59:26,398 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:59:26,400 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:59:26,415 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-16 23:59:26,428 - INFO - [search_right_panel] 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-16 23:59:26,441 - INFO - [search_right_panel] 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-16 23:59:26,454 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-16 23:59:26,468 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-16 23:59:26,470 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-16 23:59:26,472 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-16 23:59:46,996 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-16 23:59:46,996 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-16 23:59:47,201 - INFO - [init] 브라우저 초기화 완료
+2025-06-16 23:59:48,374 - INFO - [init] DART 페이지 접속 완료
+2025-06-16 23:59:48,489 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-16 23:59:50,505 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-16 23:59:50,505 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-16 23:59:50,507 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-16 23:59:50,518 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 23:59:50,526 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-16 23:59:50,533 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-16 23:59:50,540 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-16 23:59:50,555 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-16 23:59:50,562 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-16 23:59:50,570 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-16 23:59:50,577 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-16 23:59:50,584 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-16 23:59:50,591 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-16 23:59:50,591 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-16 23:59:50,591 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-16 23:59:50,591 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-16 23:59:50,591 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-16 23:59:51,335 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-16 23:59:51,344 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-16 23:59:51,353 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-16 23:59:52,519 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-16 23:59:52,527 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-16 23:59:52,529 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-16 23:59:52,531 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-16 23:59:52,535 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-16 23:59:52,535 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-16 23:59:53,667 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:59:54,694 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:59:54,729 - INFO - [search_right_panel] 제목 테이블 1: [None, '2024', '2023', '2022', None]
+2025-06-16 23:59:54,733 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:59:54,735 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-16 23:59:54,739 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:59:54,744 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:59:54,746 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:59:54,749 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:59:54,752 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:59:54,754 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:59:54,770 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-16 23:59:54,784 - INFO - [search_right_panel] 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-16 23:59:54,799 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-16 23:59:54,813 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-16 23:59:54,828 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-16 23:59:54,830 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-16 23:59:54,830 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-16 23:59:55,952 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:59:56,977 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:59:57,010 - INFO - [search_right_panel] 제목 테이블 1: [None, '2023', '2022', '2021', None]
+2025-06-16 23:59:57,014 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:59:57,016 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-16 23:59:57,021 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:59:57,025 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:59:57,028 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:59:57,031 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:59:57,033 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:59:57,036 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:59:57,052 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-16 23:59:57,066 - INFO - [search_right_panel] 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-16 23:59:57,080 - INFO - [search_right_panel] 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-16 23:59:57,094 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-16 23:59:57,107 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-16 23:59:57,109 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-16 23:59:57,111 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-16 23:59:57,123 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-16 23:59:57,125 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-16 23:59:57,127 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-16 23:59:57,130 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-16 23:59:57,130 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-16 23:59:58,253 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-16 23:59:59,278 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-16 23:59:59,310 - INFO - [search_right_panel] 제목 테이블 1: [None, '2024', '2023', '2022', None]
+2025-06-16 23:59:59,314 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-16 23:59:59,316 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-16 23:59:59,321 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-16 23:59:59,325 - INFO - [search_right_panel] 헤더 1: 
+2025-06-16 23:59:59,328 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-16 23:59:59,331 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-16 23:59:59,334 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-16 23:59:59,337 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-16 23:59:59,352 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-16 23:59:59,366 - INFO - [search_right_panel] 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-16 23:59:59,392 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-16 23:59:59,406 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-16 23:59:59,420 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-16 23:59:59,422 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-16 23:59:59,422 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-17 00:00:00,555 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 00:00:01,578 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 00:00:01,608 - INFO - [search_right_panel] 제목 테이블 1: [None, '2023', '2022', '2021', None]
+2025-06-17 00:00:01,612 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-17 00:00:01,614 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-17 00:00:01,618 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 00:00:01,622 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 00:00:01,624 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 00:00:01,626 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 00:00:01,629 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 00:00:01,631 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-17 00:00:01,646 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-17 00:00:01,659 - INFO - [search_right_panel] 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-17 00:00:01,673 - INFO - [search_right_panel] 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-17 00:00:01,688 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-17 00:00:01,702 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-17 00:00:01,704 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-17 00:00:01,706 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-17 00:18:16,895 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-17 00:18:16,895 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 00:18:17,118 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 00:18:18,636 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 00:18:18,759 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-17 00:18:20,786 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-17 00:18:20,786 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 00:18:20,789 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-17 00:18:20,803 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 00:18:20,812 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-17 00:18:20,821 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-17 00:18:20,828 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-17 00:18:20,842 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-17 00:18:20,850 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-17 00:18:20,858 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-17 00:18:20,865 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-17 00:18:20,873 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-17 00:18:20,880 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-17 00:18:20,880 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-17 00:18:20,880 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-17 00:18:20,880 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-17 00:18:20,880 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 00:18:21,635 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-17 00:18:21,645 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-17 00:18:21,654 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-17 00:18:22,807 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-17 00:18:22,814 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-17 00:18:22,816 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-17 00:18:22,818 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-17 00:18:22,822 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-17 00:18:22,822 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-17 00:18:23,959 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 00:18:24,985 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 00:18:24,995 - INFO - [search_right_panel] 0번째 nb 테이블 제목: 
+  
+연결 재무상태표
+
+
+2025-06-17 00:18:25,010 - INFO - [search_right_panel] 3번째 nb 테이블 추출 결과 : ['2024', '2023', '2022']
+2025-06-17 00:18:25,012 - INFO - [search_right_panel] 3번째 nb 테이블 단위: 원
+2025-06-17 00:18:25,016 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-17 00:18:25,019 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-17 00:18:25,023 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 00:18:25,028 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 00:18:25,031 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 00:18:25,034 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 00:18:25,036 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 00:18:25,039 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-17 00:18:25,056 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-17 00:18:25,071 - INFO - [search_right_panel] 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-17 00:18:25,087 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-17 00:18:25,103 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-17 00:18:25,117 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 00:18:25,119 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-17 00:18:25,119 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-17 00:18:26,241 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 00:18:27,266 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 00:18:27,277 - INFO - [search_right_panel] 0번째 nb 테이블 제목: 
+  
+연결 포괄손익계산서
+
+
+2025-06-17 00:18:27,291 - INFO - [search_right_panel] 3번째 nb 테이블 추출 결과 : ['2023', '2022', '2021']
+2025-06-17 00:18:27,294 - INFO - [search_right_panel] 3번째 nb 테이블 단위: 원
+2025-06-17 00:18:27,299 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-17 00:18:27,301 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-17 00:18:27,306 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 00:18:27,311 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 00:18:27,313 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 00:18:27,316 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 00:18:27,319 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 00:18:27,322 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-17 00:18:27,339 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-17 00:18:27,354 - INFO - [search_right_panel] 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-17 00:18:27,369 - INFO - [search_right_panel] 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-17 00:18:27,382 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-17 00:18:27,396 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-17 00:18:27,398 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-17 00:18:27,401 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-17 00:18:27,412 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-17 00:18:27,414 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-17 00:18:27,416 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-17 00:18:27,420 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-17 00:18:27,420 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-17 00:18:28,543 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 00:18:29,567 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 00:18:29,577 - INFO - [search_right_panel] 0번째 nb 테이블 제목: 
+  
+재무상태표
+
+
+2025-06-17 00:18:29,590 - INFO - [search_right_panel] 3번째 nb 테이블 추출 결과 : ['2024', '2023', '2022']
+2025-06-17 00:18:29,593 - INFO - [search_right_panel] 3번째 nb 테이블 단위: 원
+2025-06-17 00:18:29,598 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-17 00:18:29,600 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-17 00:18:29,604 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 00:18:29,609 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 00:18:29,612 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 00:18:29,615 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 00:18:29,618 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 00:18:29,621 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-17 00:18:29,635 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-17 00:18:29,651 - INFO - [search_right_panel] 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-17 00:18:29,666 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-17 00:18:29,696 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-17 00:18:29,710 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 00:18:29,712 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-17 00:18:29,712 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-17 00:18:30,842 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 00:18:31,866 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 00:18:31,874 - INFO - [search_right_panel] 0번째 nb 테이블 제목: 
+  
+포괄손익계산서
+
+
+2025-06-17 00:18:31,887 - INFO - [search_right_panel] 3번째 nb 테이블 추출 결과 : ['2023', '2022', '2021']
+2025-06-17 00:18:31,889 - INFO - [search_right_panel] 3번째 nb 테이블 단위: 원
+2025-06-17 00:18:31,893 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-17 00:18:31,895 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-17 00:18:31,899 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 00:18:31,904 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 00:18:31,907 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 00:18:31,909 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 00:18:31,911 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 00:18:31,914 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-17 00:18:31,929 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-17 00:18:31,942 - INFO - [search_right_panel] 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-17 00:18:31,955 - INFO - [search_right_panel] 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-17 00:18:31,968 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-17 00:18:31,982 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-17 00:18:31,984 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-17 00:18:31,986 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-17 00:19:20,570 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-17 00:19:20,570 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 00:19:20,804 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 00:19:24,258 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 00:19:24,371 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-17 00:19:26,401 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-17 00:19:26,401 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 00:19:26,404 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-17 00:19:26,418 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 00:19:26,428 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-17 00:19:26,438 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-17 00:19:26,446 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-17 00:19:26,462 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-17 00:19:26,470 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-17 00:19:26,479 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-17 00:19:26,487 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-17 00:19:26,495 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-17 00:19:26,503 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-17 00:19:26,503 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-17 00:19:26,503 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-17 00:19:26,503 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-17 00:19:26,503 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 00:19:27,235 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-17 00:19:27,244 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-17 00:19:27,253 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-17 00:19:28,400 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-17 00:19:28,407 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-17 00:19:28,409 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-17 00:19:28,411 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-17 00:19:28,416 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-17 00:19:28,416 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-17 00:19:29,551 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 00:19:30,578 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 00:19:30,592 - INFO - [search_right_panel] 0번째 nb 테이블 제목: 연결재무상태표
+2025-06-17 00:19:30,607 - INFO - [search_right_panel] 3번째 nb 테이블 추출 결과 : ['2024', '2023', '2022']
+2025-06-17 00:19:30,610 - INFO - [search_right_panel] 3번째 nb 테이블 단위: 원
+2025-06-17 00:19:30,614 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-17 00:19:30,617 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-17 00:19:30,622 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 00:19:30,627 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 00:19:30,630 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 00:19:30,632 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 00:19:30,635 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 00:19:30,638 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-17 00:19:30,655 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-17 00:19:30,669 - INFO - [search_right_panel] 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-17 00:19:30,684 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-17 00:19:30,699 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-17 00:19:30,716 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 00:19:30,719 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-17 00:19:30,719 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-17 00:19:31,843 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 00:19:32,866 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 00:19:32,876 - INFO - [search_right_panel] 0번째 nb 테이블 제목: 연결포괄손익계산서
+2025-06-17 00:19:32,889 - INFO - [search_right_panel] 3번째 nb 테이블 추출 결과 : ['2023', '2022', '2021']
+2025-06-17 00:19:32,892 - INFO - [search_right_panel] 3번째 nb 테이블 단위: 원
+2025-06-17 00:19:32,896 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-17 00:19:32,898 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-17 00:19:32,903 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 00:19:32,907 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 00:19:32,910 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 00:19:32,912 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 00:19:32,915 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 00:19:32,917 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-17 00:19:32,934 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-17 00:19:32,948 - INFO - [search_right_panel] 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-17 00:19:32,963 - INFO - [search_right_panel] 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-17 00:19:32,976 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-17 00:19:32,990 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-17 00:19:32,992 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-17 00:19:32,994 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-17 00:19:33,006 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-17 00:19:33,008 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-17 00:19:33,010 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-17 00:19:33,014 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-17 00:19:33,014 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-17 00:19:34,134 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 00:19:35,158 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 00:19:35,167 - INFO - [search_right_panel] 0번째 nb 테이블 제목: 재무상태표
+2025-06-17 00:19:35,180 - INFO - [search_right_panel] 3번째 nb 테이블 추출 결과 : ['2024', '2023', '2022']
+2025-06-17 00:19:35,183 - INFO - [search_right_panel] 3번째 nb 테이블 단위: 원
+2025-06-17 00:19:35,188 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-17 00:19:35,190 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-17 00:19:35,194 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 00:19:35,199 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 00:19:35,202 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 00:19:35,204 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 00:19:35,207 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 00:19:35,209 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-17 00:19:35,226 - INFO - [search_right_panel] 행 1: ['자산', '', '', '']
+2025-06-17 00:19:35,242 - INFO - [search_right_panel] 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-17 00:19:35,257 - INFO - [search_right_panel] 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-17 00:19:35,286 - INFO - [search_right_panel] 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-17 00:19:35,300 - INFO - [search_right_panel] 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 00:19:35,303 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-17 00:19:35,303 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-17 00:19:36,420 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 00:19:37,444 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 00:19:37,454 - INFO - [search_right_panel] 0번째 nb 테이블 제목: 포괄손익계산서
+2025-06-17 00:19:37,468 - INFO - [search_right_panel] 3번째 nb 테이블 추출 결과 : ['2023', '2022', '2021']
+2025-06-17 00:19:37,470 - INFO - [search_right_panel] 3번째 nb 테이블 단위: 원
+2025-06-17 00:19:37,475 - INFO - [search_right_panel] 데이터 테이블 2 발견
+2025-06-17 00:19:37,477 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-17 00:19:37,481 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 00:19:37,486 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 00:19:37,489 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 00:19:37,491 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 00:19:37,494 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 00:19:37,496 - INFO - [search_right_panel] 데이터 샘플 (처음 5행):
+2025-06-17 00:19:37,512 - INFO - [search_right_panel] 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-17 00:19:37,526 - INFO - [search_right_panel] 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-17 00:19:37,539 - INFO - [search_right_panel] 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-17 00:19:37,552 - INFO - [search_right_panel] 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-17 00:19:37,564 - INFO - [search_right_panel] 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-17 00:19:37,566 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-17 00:19:37,568 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-17 02:20:27,981 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-17 02:20:27,981 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 02:20:28,198 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 02:20:29,987 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 02:20:30,101 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-17 02:20:32,130 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-17 02:20:32,130 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 02:20:32,133 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-17 02:20:32,146 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 02:20:32,155 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-17 02:20:32,164 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-17 02:20:32,171 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-17 02:20:32,186 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-17 02:20:32,193 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-17 02:20:32,202 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-17 02:20:32,209 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-17 02:20:32,216 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-17 02:20:32,224 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-17 02:20:32,224 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-17 02:20:32,224 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-17 02:20:32,224 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-17 02:20:32,224 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 02:20:32,944 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-17 02:20:32,954 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-17 02:20:32,962 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-17 02:20:34,112 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-17 02:20:34,119 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-17 02:20:34,121 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-17 02:20:34,123 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:20:34,128 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-17 02:20:34,128 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-17 02:20:35,260 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:20:36,289 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:20:36,299 - WARNING - [search_right_panel] 테이블 1 처리 중 오류: local variable 'is_standard_table' referenced before assignment
+2025-06-17 02:20:36,309 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 02:20:36,315 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 02:20:36,318 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 02:20:36,321 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 02:20:36,324 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 02:20:36,324 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:20:36,326 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-17 02:20:36,326 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:20:36,328 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:20:36,345 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 02:20:36,359 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-17 02:20:36,373 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-17 02:20:36,387 - INFO - [search_right_panel] 표준 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-17 02:20:36,401 - INFO - [search_right_panel] 표준 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 02:20:36,404 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-17 02:20:36,404 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-17 02:20:37,530 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:20:38,555 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:20:38,564 - WARNING - [search_right_panel] 테이블 1 처리 중 오류: local variable 'is_standard_table' referenced before assignment
+2025-06-17 02:20:38,574 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 02:20:38,579 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 02:20:38,581 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 02:20:38,584 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 02:20:38,586 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 02:20:38,587 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:20:38,589 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-17 02:20:38,589 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:20:38,591 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:20:38,607 - INFO - [search_right_panel] 표준 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-17 02:20:38,622 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-17 02:20:38,634 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-17 02:20:38,646 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-17 02:20:38,659 - INFO - [search_right_panel] 표준 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-17 02:20:38,661 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-17 02:20:38,663 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-17 02:20:38,674 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-17 02:20:38,675 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-17 02:20:38,677 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:20:38,681 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-17 02:20:38,681 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-17 02:20:39,812 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:20:40,838 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:20:40,847 - WARNING - [search_right_panel] 테이블 1 처리 중 오류: local variable 'is_standard_table' referenced before assignment
+2025-06-17 02:20:40,856 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 02:20:40,861 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 02:20:40,864 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 02:20:40,866 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 02:20:40,869 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 02:20:40,869 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:20:40,871 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-17 02:20:40,871 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:20:40,873 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:20:40,889 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 02:20:40,904 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-17 02:20:40,917 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-17 02:20:40,930 - INFO - [search_right_panel] 표준 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-17 02:20:40,945 - INFO - [search_right_panel] 표준 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 02:20:40,947 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-17 02:20:40,947 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-17 02:20:42,081 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:20:43,103 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:20:43,111 - WARNING - [search_right_panel] 테이블 1 처리 중 오류: local variable 'is_standard_table' referenced before assignment
+2025-06-17 02:20:43,132 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 02:20:43,135 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 02:20:43,137 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 02:20:43,139 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 02:20:43,142 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 02:20:43,142 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:20:43,144 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-17 02:20:43,144 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:20:43,146 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:20:43,160 - INFO - [search_right_panel] 표준 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-17 02:20:43,173 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-17 02:20:43,185 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-17 02:20:43,198 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-17 02:20:43,210 - INFO - [search_right_panel] 표준 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-17 02:20:43,212 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-17 02:20:43,214 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-17 02:22:26,059 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-17 02:22:26,060 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 02:22:26,289 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 02:22:27,488 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 02:22:27,610 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-17 02:22:29,632 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-17 02:22:29,632 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 02:22:29,635 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-17 02:22:29,648 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 02:22:29,656 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-17 02:22:29,665 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-17 02:22:29,672 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-17 02:22:29,686 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-17 02:22:29,693 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-17 02:22:29,701 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-17 02:22:29,709 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-17 02:22:29,716 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-17 02:22:29,723 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-17 02:22:29,723 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-17 02:22:29,723 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-17 02:22:29,723 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-17 02:22:29,723 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 02:22:30,453 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-17 02:22:30,463 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-17 02:22:30,469 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-17 02:22:31,625 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-17 02:22:31,632 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-17 02:22:31,634 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-17 02:22:31,636 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:22:31,640 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-17 02:22:31,640 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-17 02:22:32,772 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:22:33,800 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:22:33,810 - INFO - [search_right_panel] 헤더 행을 찾을 수 없음 - 비표준 테이블로 처리
+2025-06-17 02:22:33,810 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: False
+2025-06-17 02:22:33,810 - INFO - [search_right_panel] 0번째 비표준 nb 테이블 - 별도 처리 로직 필요
+2025-06-17 02:22:33,820 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 02:22:33,825 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 02:22:33,828 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 02:22:33,831 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 02:22:33,834 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 02:22:33,834 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:22:33,836 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-17 02:22:33,836 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:22:33,839 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:22:33,856 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 02:22:33,871 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-17 02:22:33,885 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-17 02:22:33,899 - INFO - [search_right_panel] 표준 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-17 02:22:33,913 - INFO - [search_right_panel] 표준 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 02:22:33,915 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-17 02:22:33,915 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-17 02:22:35,047 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:22:36,073 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:22:36,084 - INFO - [search_right_panel] 헤더 행을 찾을 수 없음 - 비표준 테이블로 처리
+2025-06-17 02:22:36,084 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: False
+2025-06-17 02:22:36,084 - INFO - [search_right_panel] 0번째 비표준 nb 테이블 - 별도 처리 로직 필요
+2025-06-17 02:22:36,093 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 02:22:36,098 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 02:22:36,101 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 02:22:36,104 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 02:22:36,107 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 02:22:36,107 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:22:36,109 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-17 02:22:36,109 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:22:36,112 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:22:36,129 - INFO - [search_right_panel] 표준 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-17 02:22:36,144 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-17 02:22:36,158 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-17 02:22:36,172 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-17 02:22:36,185 - INFO - [search_right_panel] 표준 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-17 02:22:36,187 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-17 02:22:36,189 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-17 02:22:36,200 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-17 02:22:36,202 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-17 02:22:36,203 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:22:36,207 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-17 02:22:36,207 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-17 02:22:37,324 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:22:38,348 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:22:38,356 - INFO - [search_right_panel] 헤더 행을 찾을 수 없음 - 비표준 테이블로 처리
+2025-06-17 02:22:38,356 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: False
+2025-06-17 02:22:38,356 - INFO - [search_right_panel] 0번째 비표준 nb 테이블 - 별도 처리 로직 필요
+2025-06-17 02:22:38,364 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 02:22:38,369 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 02:22:38,372 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 02:22:38,374 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 02:22:38,377 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 02:22:38,377 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:22:38,379 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-17 02:22:38,379 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:22:38,381 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:22:38,396 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 02:22:38,410 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-17 02:22:38,423 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-17 02:22:38,437 - INFO - [search_right_panel] 표준 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-17 02:22:38,451 - INFO - [search_right_panel] 표준 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 02:22:38,453 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-17 02:22:38,453 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-17 02:22:39,574 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:22:40,599 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:22:40,607 - INFO - [search_right_panel] 헤더 행을 찾을 수 없음 - 비표준 테이블로 처리
+2025-06-17 02:22:40,607 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: False
+2025-06-17 02:22:40,607 - INFO - [search_right_panel] 0번째 비표준 nb 테이블 - 별도 처리 로직 필요
+2025-06-17 02:22:40,630 - INFO - [search_right_panel] 헤더 열 수: 4
+2025-06-17 02:22:40,634 - INFO - [search_right_panel] 헤더 1: 
+2025-06-17 02:22:40,636 - INFO - [search_right_panel] 헤더 2: 제 23 기
+2025-06-17 02:22:40,638 - INFO - [search_right_panel] 헤더 3: 제 22 기
+2025-06-17 02:22:40,641 - INFO - [search_right_panel] 헤더 4: 제 21 기
+2025-06-17 02:22:40,641 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:22:40,643 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-17 02:22:40,643 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:22:40,645 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:22:40,661 - INFO - [search_right_panel] 표준 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-17 02:22:40,674 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-17 02:22:40,687 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-17 02:22:40,700 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-17 02:22:40,712 - INFO - [search_right_panel] 표준 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-17 02:22:40,714 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-17 02:22:40,716 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-17 02:25:34,687 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-17 02:25:34,688 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 02:25:34,907 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 02:25:36,046 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 02:25:36,175 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-17 02:25:38,185 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-17 02:25:38,185 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 02:25:38,188 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-17 02:25:38,201 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 02:25:38,210 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-17 02:25:38,218 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-17 02:25:38,226 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-17 02:25:38,241 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-17 02:25:38,248 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-17 02:25:38,257 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-17 02:25:38,265 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-17 02:25:38,272 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-17 02:25:38,279 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-17 02:25:38,279 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-17 02:25:38,279 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-17 02:25:38,279 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-17 02:25:38,279 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 02:25:39,013 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-17 02:25:39,023 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-17 02:25:39,031 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-17 02:25:40,186 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-17 02:25:40,193 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-17 02:25:40,195 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-17 02:25:40,197 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:25:40,201 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-17 02:25:40,201 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-17 02:25:41,331 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:25:42,357 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:25:42,372 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기          2024.06.30 현재
+2025-06-17 02:25:42,377 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기          2023.06.30 현재
+2025-06-17 02:25:42,382 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기          2022.06.30 현재
+2025-06-17 02:25:42,382 - INFO - [valid_standard_nb_table] 표준 nb 테이블 확인: ['제 23 기 \xa0 \xa0 \xa0 \xa0 \xa02024.06.30 현재', '제 22 기 \xa0 \xa0 \xa0 \xa0 \xa02023.06.30 현재', '제 21 기 \xa0 \xa0 \xa0 \xa0 \xa02022.06.30 현재']
+2025-06-17 02:25:42,382 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:25:42,386 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 연결재무상태표
+2025-06-17 02:25:42,409 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:25:42,414 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:25:42,417 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:25:42,420 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:25:42,422 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:25:42,422 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:25:42,425 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-17 02:25:42,425 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:25:42,427 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:25:42,444 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 02:25:42,458 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-17 02:25:42,473 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-17 02:25:42,487 - INFO - [search_right_panel] 표준 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-17 02:25:42,501 - INFO - [search_right_panel] 표준 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 02:25:42,504 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-17 02:25:42,504 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-17 02:25:43,636 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:25:44,662 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:25:44,677 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기 2023.07.01 부터 2024.06.30 까지
+2025-06-17 02:25:44,682 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기 2022.07.01 부터 2023.06.30 까지
+2025-06-17 02:25:44,686 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기 2021.07.01 부터 2022.06.30 까지
+2025-06-17 02:25:44,686 - INFO - [valid_standard_nb_table] 표준 nb 테이블 확인: ['제 23 기 2023.07.01 부터 2024.06.30 까지', '제 22 기 2022.07.01 부터 2023.06.30 까지', '제 21 기 2021.07.01 부터 2022.06.30 까지']
+2025-06-17 02:25:44,686 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:25:44,688 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 연결포괄손익계산서
+2025-06-17 02:25:44,710 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:25:44,715 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:25:44,717 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:25:44,720 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:25:44,722 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:25:44,722 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:25:44,724 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-17 02:25:44,724 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:25:44,726 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:25:44,743 - INFO - [search_right_panel] 표준 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-17 02:25:44,757 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-17 02:25:44,770 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-17 02:25:44,784 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-17 02:25:44,797 - INFO - [search_right_panel] 표준 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-17 02:25:44,799 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-17 02:25:44,802 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-17 02:25:44,813 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-17 02:25:44,815 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-17 02:25:44,817 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:25:44,821 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-17 02:25:44,821 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-17 02:25:45,950 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:25:46,975 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:25:46,988 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기          2024.06.30 현재
+2025-06-17 02:25:46,993 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기          2023.06.30 현재
+2025-06-17 02:25:46,997 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기          2022.06.30 현재
+2025-06-17 02:25:46,998 - INFO - [valid_standard_nb_table] 표준 nb 테이블 확인: ['제 23 기 \xa0 \xa0 \xa0 \xa0 \xa02024.06.30 현재', '제 22 기 \xa0 \xa0 \xa0 \xa0 \xa02023.06.30 현재', '제 21 기 \xa0 \xa0 \xa0 \xa0 \xa02022.06.30 현재']
+2025-06-17 02:25:46,998 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:25:47,000 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 재무상태표
+2025-06-17 02:25:47,023 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:25:47,028 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:25:47,031 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:25:47,033 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:25:47,036 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:25:47,036 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:25:47,038 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-17 02:25:47,038 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:25:47,041 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:25:47,069 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 02:25:47,081 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-17 02:25:47,094 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-17 02:25:47,108 - INFO - [search_right_panel] 표준 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-17 02:25:47,121 - INFO - [search_right_panel] 표준 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 02:25:47,123 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-17 02:25:47,123 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-17 02:25:48,250 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:25:49,275 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:25:49,288 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기 2023.07.01 부터 2024.06.30 까지
+2025-06-17 02:25:49,292 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기 2022.07.01 부터 2023.06.30 까지
+2025-06-17 02:25:49,296 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기 2021.07.01 부터 2022.06.30 까지
+2025-06-17 02:25:49,296 - INFO - [valid_standard_nb_table] 표준 nb 테이블 확인: ['제 23 기 2023.07.01 부터 2024.06.30 까지', '제 22 기 2022.07.01 부터 2023.06.30 까지', '제 21 기 2021.07.01 부터 2022.06.30 까지']
+2025-06-17 02:25:49,296 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:25:49,299 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 포괄손익계산서
+2025-06-17 02:25:49,319 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:25:49,323 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:25:49,325 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:25:49,328 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:25:49,330 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:25:49,330 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:25:49,332 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-17 02:25:49,332 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:25:49,334 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:25:49,349 - INFO - [search_right_panel] 표준 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-17 02:25:49,362 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-17 02:25:49,376 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-17 02:25:49,389 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-17 02:25:49,402 - INFO - [search_right_panel] 표준 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-17 02:25:49,404 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-17 02:25:49,406 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-17 02:31:40,049 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-17 02:31:40,049 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 02:31:40,266 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 02:31:41,464 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 02:31:41,575 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-17 02:31:43,589 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-17 02:31:43,589 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 02:31:43,592 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-17 02:31:43,605 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 02:31:43,614 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-17 02:31:43,622 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-17 02:31:43,630 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-17 02:31:43,645 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-17 02:31:43,652 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-17 02:31:43,660 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-17 02:31:43,667 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-17 02:31:43,674 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-17 02:31:43,682 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-17 02:31:43,682 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-17 02:31:43,682 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-17 02:31:43,682 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-17 02:31:43,682 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 02:31:44,434 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-17 02:31:44,444 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-17 02:31:44,452 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-17 02:31:45,601 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-17 02:31:45,608 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-17 02:31:45,610 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-17 02:31:45,612 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:31:45,616 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-17 02:31:45,616 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-17 02:31:46,737 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:31:47,765 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:31:47,779 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기          2024.06.30 현재
+2025-06-17 02:31:47,784 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기          2023.06.30 현재
+2025-06-17 02:31:47,789 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기          2022.06.30 현재
+2025-06-17 02:31:47,789 - INFO - [valid_standard_nb_table] 검증결과: 표준
+2025-06-17 02:31:47,789 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:31:47,793 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 연결재무상태표
+2025-06-17 02:31:47,816 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:31:47,821 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:31:47,824 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:31:47,826 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:31:47,829 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:31:47,829 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:31:47,832 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-17 02:31:47,832 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:31:47,834 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:31:47,852 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 02:31:47,867 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-17 02:31:47,881 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-17 02:31:47,895 - INFO - [search_right_panel] 표준 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-17 02:31:47,909 - INFO - [search_right_panel] 표준 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 02:31:47,911 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-17 02:31:47,911 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-17 02:31:49,039 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:31:50,064 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:31:50,078 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기 2023.07.01 부터 2024.06.30 까지
+2025-06-17 02:31:50,082 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기 2022.07.01 부터 2023.06.30 까지
+2025-06-17 02:31:50,087 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기 2021.07.01 부터 2022.06.30 까지
+2025-06-17 02:31:50,087 - INFO - [valid_standard_nb_table] 검증결과: 표준
+2025-06-17 02:31:50,087 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:31:50,089 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 연결포괄손익계산서
+2025-06-17 02:31:50,112 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:31:50,117 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:31:50,120 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:31:50,122 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:31:50,125 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:31:50,125 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:31:50,127 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-17 02:31:50,127 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:31:50,129 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:31:50,145 - INFO - [search_right_panel] 표준 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-17 02:31:50,159 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-17 02:31:50,174 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-17 02:31:50,188 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-17 02:31:50,202 - INFO - [search_right_panel] 표준 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-17 02:31:50,205 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-17 02:31:50,207 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-17 02:31:50,218 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-17 02:31:50,220 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-17 02:31:50,222 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:31:50,226 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-17 02:31:50,226 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-17 02:31:51,355 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:31:52,381 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:31:52,394 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기          2024.06.30 현재
+2025-06-17 02:31:52,399 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기          2023.06.30 현재
+2025-06-17 02:31:52,403 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기          2022.06.30 현재
+2025-06-17 02:31:52,403 - INFO - [valid_standard_nb_table] 검증결과: 표준
+2025-06-17 02:31:52,403 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:31:52,405 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 재무상태표
+2025-06-17 02:31:52,427 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:31:52,432 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:31:52,435 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:31:52,437 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:31:52,440 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:31:52,440 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:31:52,442 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-17 02:31:52,442 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:31:52,444 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:31:52,474 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 02:31:52,487 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-17 02:31:52,501 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-17 02:31:52,514 - INFO - [search_right_panel] 표준 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-17 02:31:52,528 - INFO - [search_right_panel] 표준 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 02:31:52,530 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-17 02:31:52,530 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-17 02:31:53,651 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:31:54,676 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:31:54,689 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기 2023.07.01 부터 2024.06.30 까지
+2025-06-17 02:31:54,694 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기 2022.07.01 부터 2023.06.30 까지
+2025-06-17 02:31:54,699 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기 2021.07.01 부터 2022.06.30 까지
+2025-06-17 02:31:54,699 - INFO - [valid_standard_nb_table] 검증결과: 표준
+2025-06-17 02:31:54,699 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:31:54,701 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 포괄손익계산서
+2025-06-17 02:31:54,723 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:31:54,727 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:31:54,730 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:31:54,732 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:31:54,735 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:31:54,735 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:31:54,737 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-17 02:31:54,737 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:31:54,739 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:31:54,755 - INFO - [search_right_panel] 표준 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-17 02:31:54,769 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-17 02:31:54,782 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-17 02:31:54,796 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-17 02:31:54,809 - INFO - [search_right_panel] 표준 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-17 02:31:54,812 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-17 02:31:54,814 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-17 02:37:26,539 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-17 02:37:26,539 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 02:37:26,749 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 02:37:27,734 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 02:37:27,842 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-17 02:37:29,871 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-17 02:37:29,871 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 02:37:29,874 - INFO - [collect_report_list] 보고서 목록 수집 완료: 15개
+2025-06-17 02:37:29,886 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2025.03 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250515001612
+2025-06-17 02:37:29,895 - INFO - [collect_report_list] 행 2: 형지엘리트 - 일반 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250410000383
+2025-06-17 02:37:29,904 - INFO - [collect_report_list] 행 3: 형지엘리트 -  - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250324000359
+2025-06-17 02:37:29,911 - INFO - [collect_report_list] 행 4: 형지엘리트 -  - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250324000295
+2025-06-17 02:37:29,918 - INFO - [collect_report_list] 행 5: 형지엘리트 - 일반 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250324000205
+2025-06-17 02:37:29,926 - INFO - [collect_report_list] 행 6: 형지엘리트 -  - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250324800082
+2025-06-17 02:37:29,933 - INFO - [collect_report_list] 행 7: 형지엘리트 -  - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250225801294
+2025-06-17 02:37:29,941 - INFO - [collect_report_list] 행 8: 형지엘리트 -  - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250225801286
+2025-06-17 02:37:29,948 - INFO - [collect_report_list] 행 9: 형지엘리트 - 일반 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250224003167
+2025-06-17 02:37:29,956 - INFO - [collect_report_list] 행 10: 형지엘리트 -  - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250224003111
+2025-06-17 02:37:29,964 - INFO - [collect_report_list] 행 11: 형지엘리트 -  - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250224800258
+2025-06-17 02:37:29,971 - INFO - [collect_report_list] 행 12: 형지엘리트 - 2024.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250214001313
+2025-06-17 02:37:29,979 - INFO - [collect_report_list] 행 13: 형지엘리트 - 약식 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250212000358
+2025-06-17 02:37:29,986 - INFO - [collect_report_list] 행 14: 형지엘리트 - 제3자의전환사채매수선택권행사 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250207000166
+2025-06-17 02:37:29,993 - INFO - [collect_report_list] 행 15: 형지엘리트 - 중요공시대상없음 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20241211800601
+2025-06-17 02:37:29,993 - INFO - [collect_report_list] 총 15개 보고서 정보 수집 완료
+2025-06-17 02:37:29,993 - INFO - [collect_financial_statements] 총 15개 보고서 정보 수집 완료
+2025-06-17 02:37:29,993 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-17 02:37:29,993 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 분기보고서, 발행일: 2025.03, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250515001612
+2025-06-17 02:37:30,868 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-17 02:37:30,878 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-17 02:37:30,886 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-17 02:37:32,041 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-17 02:37:32,047 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-17 02:37:32,049 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-17 02:37:32,050 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:37:32,053 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-17 02:37:32,053 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-17 02:37:33,190 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:37:34,217 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:37:34,227 - INFO - [valid_standard_nb_table] 행 수 부족: 4
+2025-06-17 02:37:34,227 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: False
+2025-06-17 02:37:34,227 - INFO - [search_right_panel] 0번째 비표준 nb 테이블 - 별도 처리 로직 필요
+2025-06-17 02:37:34,237 - INFO - [valid_standard_data_table] 헤더 열 수: 3
+2025-06-17 02:37:34,242 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:37:34,245 - INFO - [valid_standard_data_table] 헤더 2: 제 24 기 3분기말
+2025-06-17 02:37:34,248 - INFO - [valid_standard_data_table] 헤더 3: 제 23 기말
+2025-06-17 02:37:34,248 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: False
+2025-06-17 02:37:34,250 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 48
+2025-06-17 02:37:34,251 - INFO - [search_right_panel] 1번째 비표준 데이터 테이블 처리 시작
+2025-06-17 02:37:34,253 - INFO - [search_right_panel] 비표준 데이터 샘플 (처음 5행):
+2025-06-17 02:37:34,269 - INFO - [search_right_panel] 비표준 행 1: ['자산', '', '']
+2025-06-17 02:37:34,281 - INFO - [search_right_panel] 비표준 행 2: ['유동자산', '128,588,670,030', '92,103,185,493']
+2025-06-17 02:37:34,292 - INFO - [search_right_panel] 비표준 행 3: ['현금및현금성자산', '1,433,460,477', '19,605,120,561']
+2025-06-17 02:37:34,304 - INFO - [search_right_panel] 비표준 행 4: ['매출채권 및 기타유동채권', '90,045,273,951', '45,684,654,590']
+2025-06-17 02:37:34,316 - INFO - [search_right_panel] 비표준 행 5: ['기타유동금융자산', '3,022,359,418', '2,793,509,981']
+2025-06-17 02:37:34,318 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-17 02:37:34,318 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-17 02:37:35,445 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:37:36,470 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:37:36,479 - INFO - [valid_standard_nb_table] 행 수 부족: 4
+2025-06-17 02:37:36,479 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: False
+2025-06-17 02:37:36,479 - INFO - [search_right_panel] 0번째 비표준 nb 테이블 - 별도 처리 로직 필요
+2025-06-17 02:37:36,485 - INFO - [valid_standard_data_table] 헤더 열 수: 3
+2025-06-17 02:37:36,490 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:37:36,493 - INFO - [valid_standard_data_table] 헤더 2: 제 24 기 3분기
+2025-06-17 02:37:36,495 - INFO - [valid_standard_data_table] 헤더 3: 제 23 기 3분기
+2025-06-17 02:37:36,495 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: False
+2025-06-17 02:37:36,498 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 35
+2025-06-17 02:37:36,498 - INFO - [search_right_panel] 1번째 비표준 데이터 테이블 처리 시작
+2025-06-17 02:37:36,500 - INFO - [search_right_panel] 비표준 데이터 샘플 (처음 5행):
+2025-06-17 02:37:36,520 - INFO - [search_right_panel] 비표준 행 1: ['수익(매출액)', '35,274,117,575', '109,161,646,847', '38,127,145,809', '96,478,529,277']
+2025-06-17 02:37:36,538 - INFO - [search_right_panel] 비표준 행 2: ['매출원가', '28,849,587,185', '87,509,514,315', '30,742,776,505', '78,581,877,093']
+2025-06-17 02:37:36,555 - INFO - [search_right_panel] 비표준 행 3: ['매출총이익', '6,424,530,390', '21,652,132,532', '7,384,369,304', '17,896,652,184']
+2025-06-17 02:37:36,572 - INFO - [search_right_panel] 비표준 행 4: ['판매비와관리비', '7,811,795,417', '21,405,167,674', '5,690,997,252', '15,819,554,499']
+2025-06-17 02:37:36,588 - INFO - [search_right_panel] 비표준 행 5: ['매출채권손상차손(환입), 판관비', '712,591,112', '912,002,859', '(414,994,548)', '495,361,638']
+2025-06-17 02:37:36,591 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-17 02:37:36,593 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-17 02:37:36,606 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-17 02:37:36,608 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-17 02:37:36,610 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:37:36,613 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-17 02:37:36,613 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-17 02:37:37,740 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:37:38,764 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:37:38,773 - INFO - [valid_standard_nb_table] 행 수 부족: 4
+2025-06-17 02:37:38,773 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: False
+2025-06-17 02:37:38,773 - INFO - [search_right_panel] 0번째 비표준 nb 테이블 - 별도 처리 로직 필요
+2025-06-17 02:37:38,783 - INFO - [valid_standard_data_table] 헤더 열 수: 3
+2025-06-17 02:37:38,788 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:37:38,790 - INFO - [valid_standard_data_table] 헤더 2: 제 24 기 3분기말
+2025-06-17 02:37:38,793 - INFO - [valid_standard_data_table] 헤더 3: 제 23 기말
+2025-06-17 02:37:38,793 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: False
+2025-06-17 02:37:38,795 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-17 02:37:38,795 - INFO - [search_right_panel] 1번째 비표준 데이터 테이블 처리 시작
+2025-06-17 02:37:38,798 - INFO - [search_right_panel] 비표준 데이터 샘플 (처음 5행):
+2025-06-17 02:37:38,812 - INFO - [search_right_panel] 비표준 행 1: ['자산', '', '']
+2025-06-17 02:37:38,824 - INFO - [search_right_panel] 비표준 행 2: ['유동자산', '127,361,689,006', '90,688,711,897']
+2025-06-17 02:37:38,836 - INFO - [search_right_panel] 비표준 행 3: ['현금및현금성자산', '975,922,667', '18,940,266,083']
+2025-06-17 02:37:38,847 - INFO - [search_right_panel] 비표준 행 4: ['매출채권 및 기타유동채권', '89,363,265,393', '45,661,102,756']
+2025-06-17 02:37:38,859 - INFO - [search_right_panel] 비표준 행 5: ['기타유동금융자산', '3,022,359,418', '2,793,509,981']
+2025-06-17 02:37:38,861 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-17 02:37:38,861 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-17 02:37:39,988 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:37:41,024 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:37:41,032 - INFO - [valid_standard_nb_table] 행 수 부족: 4
+2025-06-17 02:37:41,032 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: False
+2025-06-17 02:37:41,032 - INFO - [search_right_panel] 0번째 비표준 nb 테이블 - 별도 처리 로직 필요
+2025-06-17 02:37:41,041 - INFO - [valid_standard_data_table] 헤더 열 수: 3
+2025-06-17 02:37:41,046 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:37:41,048 - INFO - [valid_standard_data_table] 헤더 2: 제 24 기 3분기
+2025-06-17 02:37:41,051 - INFO - [valid_standard_data_table] 헤더 3: 제 23 기 3분기
+2025-06-17 02:37:41,051 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: False
+2025-06-17 02:37:41,053 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 22
+2025-06-17 02:37:41,053 - INFO - [search_right_panel] 1번째 비표준 데이터 테이블 처리 시작
+2025-06-17 02:37:41,056 - INFO - [search_right_panel] 비표준 데이터 샘플 (처음 5행):
+2025-06-17 02:37:41,074 - INFO - [search_right_panel] 비표준 행 1: ['수익(매출액)', '34,629,877,307', '107,444,216,199', '37,757,879,489', '95,779,274,657']
+2025-06-17 02:37:41,090 - INFO - [search_right_panel] 비표준 행 2: ['매출원가', '28,183,069,676', '86,465,742,393', '30,685,674,494', '79,015,738,584']
+2025-06-17 02:37:41,105 - INFO - [search_right_panel] 비표준 행 3: ['매출총이익', '6,446,807,631', '20,978,473,806', '7,072,204,995', '16,763,536,073']
+2025-06-17 02:37:41,121 - INFO - [search_right_panel] 비표준 행 4: ['판매비와관리비', '7,551,067,509', '20,748,673,417', '5,408,590,279', '15,011,321,413']
+2025-06-17 02:37:41,137 - INFO - [search_right_panel] 비표준 행 5: ['매출채권손상차손(환입), 판관비', '676,018,764', '875,449,577', '(409,013,330)', '496,209,914']
+2025-06-17 02:37:41,139 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-17 02:37:41,141 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-17 02:45:37,338 - INFO - [collect_financial_statements] 재무제표 수집 시작: 형지엘리트
+2025-06-17 02:45:37,338 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 02:45:37,567 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 02:45:38,522 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 02:45:38,640 - INFO - [search_company] 기업 검색 시작: 형지엘리트
+2025-06-17 02:45:41,671 - INFO - [search_company] 기업 검색 완료: 형지엘리트
+2025-06-17 02:45:41,671 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 02:45:41,674 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-17 02:45:41,686 - INFO - [collect_report_list] 행 1: 형지엘리트 - 2024.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 02:45:41,695 - INFO - [collect_report_list] 행 2: 형지엘리트 - 2023.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230919000174
+2025-06-17 02:45:41,703 - INFO - [collect_report_list] 행 3: 형지엘리트 - 2022.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220920000352
+2025-06-17 02:45:41,711 - INFO - [collect_report_list] 행 4: 형지엘리트 - 2021.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20211006000667
+2025-06-17 02:45:41,726 - INFO - [collect_report_list] 행 6: 형지엘리트 - 2020.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200928000301
+2025-06-17 02:45:41,734 - INFO - [collect_report_list] 행 7: 형지엘리트 - 2019.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200130000570
+2025-06-17 02:45:41,742 - INFO - [collect_report_list] 행 8: 형지엘리트 - 2018.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180928000437
+2025-06-17 02:45:41,750 - INFO - [collect_report_list] 행 9: 형지엘리트 - 2017.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170928000307
+2025-06-17 02:45:41,757 - INFO - [collect_report_list] 행 10: 형지엘리트 - 2016.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160926000310
+2025-06-17 02:45:41,764 - INFO - [collect_report_list] 행 11: 형지엘리트 - 2015.06 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150921000093
+2025-06-17 02:45:41,764 - INFO - [collect_report_list] 총 10개 보고서 정보 수집 완료
+2025-06-17 02:45:41,764 - INFO - [collect_financial_statements] 총 10개 보고서 정보 수집 완료
+2025-06-17 02:45:41,764 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-17 02:45:41,764 - INFO - [collect_financial_statements] 회사명: 형지엘리트, 보고서명: 사업보고서, 발행일: 2024.06, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240920000129
+2025-06-17 02:45:42,486 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-17 02:45:42,495 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-17 02:45:42,503 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-17 02:45:43,632 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-17 02:45:43,639 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-17 02:45:43,641 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-17 02:45:43,643 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:45:43,647 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-17 02:45:43,647 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-17 02:45:44,768 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:45:45,796 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:45:45,812 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기          2024.06.30 현재
+2025-06-17 02:45:45,818 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기          2023.06.30 현재
+2025-06-17 02:45:45,823 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기          2022.06.30 현재
+2025-06-17 02:45:45,823 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:45:45,827 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 연결재무상태표
+2025-06-17 02:45:45,851 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:45:45,856 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:45:45,859 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:45:45,862 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:45:45,864 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:45:45,864 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:45:45,867 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 49
+2025-06-17 02:45:45,867 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:45:45,869 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:45:45,887 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 02:45:45,915 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '92,103,185,493', '70,799,227,485', '62,186,943,491']
+2025-06-17 02:45:45,930 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '19,605,120,561', '10,844,282,928', '27,033,356,025']
+2025-06-17 02:45:45,944 - INFO - [search_right_panel] 표준 행 4: ['매출채권 및 기타유동채권', '45,684,654,590', '36,628,306,313', '19,574,423,407']
+2025-06-17 02:45:45,958 - INFO - [search_right_panel] 표준 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 02:45:45,960 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-17 02:45:45,960 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-17 02:45:47,091 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:45:48,115 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:45:48,129 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기 2023.07.01 부터 2024.06.30 까지
+2025-06-17 02:45:48,134 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기 2022.07.01 부터 2023.06.30 까지
+2025-06-17 02:45:48,139 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기 2021.07.01 부터 2022.06.30 까지
+2025-06-17 02:45:48,139 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:45:48,141 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 연결포괄손익계산서
+2025-06-17 02:45:48,164 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:45:48,169 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:45:48,172 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:45:48,174 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:45:48,177 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:45:48,177 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:45:48,179 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 34
+2025-06-17 02:45:48,179 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:45:48,182 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:45:48,199 - INFO - [search_right_panel] 표준 행 1: ['수익(매출액)', '132,748,313,784', '94,485,977,330', '137,271,368,719']
+2025-06-17 02:45:48,214 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '104,438,276,197', '75,679,287,059', '85,044,474,497']
+2025-06-17 02:45:48,229 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '28,310,037,587', '18,806,690,271', '52,226,894,222']
+2025-06-17 02:45:48,243 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '21,301,500,316', '16,320,952,764', '48,286,858,042']
+2025-06-17 02:45:48,256 - INFO - [search_right_panel] 표준 행 5: ['매출채권손상차손(환입), 판관비', '136,225,789', '346,605,146', '(165,160,922)']
+2025-06-17 02:45:48,258 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-17 02:45:48,260 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-17 02:45:48,272 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-17 02:45:48,274 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-17 02:45:48,276 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-17 02:45:48,279 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-17 02:45:48,279 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-17 02:45:49,404 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:45:50,429 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:45:50,442 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기          2024.06.30 현재
+2025-06-17 02:45:50,446 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기          2023.06.30 현재
+2025-06-17 02:45:50,451 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기          2022.06.30 현재
+2025-06-17 02:45:50,451 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:45:50,454 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 재무상태표
+2025-06-17 02:45:50,477 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:45:50,482 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:45:50,485 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:45:50,487 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:45:50,490 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:45:50,490 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:45:50,492 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 47
+2025-06-17 02:45:50,492 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:45:50,494 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:45:50,527 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 02:45:50,541 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '90,688,711,897', '69,776,387,342', '60,457,103,154']
+2025-06-17 02:45:50,554 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '18,940,266,083', '10,255,551,069', '26,512,663,990']
+2025-06-17 02:45:50,567 - INFO - [search_right_panel] 표준 행 4: ['매출채권 및 기타유동채권', '45,661,102,756', '36,607,034,748', '19,492,095,265']
+2025-06-17 02:45:50,580 - INFO - [search_right_panel] 표준 행 5: ['기타유동금융자산', '2,793,509,981', '2,480,282,269', '2,496,612,727']
+2025-06-17 02:45:50,582 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-17 02:45:50,582 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-17 02:45:51,703 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 02:45:52,727 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 02:45:52,742 - INFO - [valid_standard_nb_table] 1번째 행에서 연도 발견: 제 23 기 2023.07.01 부터 2024.06.30 까지
+2025-06-17 02:45:52,747 - INFO - [valid_standard_nb_table] 2번째 행에서 연도 발견: 제 22 기 2022.07.01 부터 2023.06.30 까지
+2025-06-17 02:45:52,751 - INFO - [valid_standard_nb_table] 3번째 행에서 연도 발견: 제 21 기 2021.07.01 부터 2022.06.30 까지
+2025-06-17 02:45:52,751 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 02:45:52,754 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 포괄손익계산서
+2025-06-17 02:45:52,777 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 02:45:52,782 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 02:45:52,785 - INFO - [valid_standard_data_table] 헤더 2: 제 23 기
+2025-06-17 02:45:52,788 - INFO - [valid_standard_data_table] 헤더 3: 제 22 기
+2025-06-17 02:45:52,790 - INFO - [valid_standard_data_table] 헤더 4: 제 21 기
+2025-06-17 02:45:52,791 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 02:45:52,793 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-17 02:45:52,793 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 02:45:52,795 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 02:45:52,811 - INFO - [search_right_panel] 표준 행 1: ['수익(매출액)', '131,848,741,012', '92,856,998,017', '53,613,583,949']
+2025-06-17 02:45:52,824 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '105,344,738,421', '75,827,402,153', '41,965,682,379']
+2025-06-17 02:45:52,837 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '26,504,002,591', '17,029,595,864', '11,647,901,570']
+2025-06-17 02:45:52,849 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '20,190,980,001', '14,983,902,167', '8,570,428,620']
+2025-06-17 02:45:52,862 - INFO - [search_right_panel] 표준 행 5: ['매출채권손상차손(환입), 판관비', '137,167,108', '353,104,270', '(568,129,350)']
+2025-06-17 02:45:52,864 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-17 02:45:52,866 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견
+2025-06-17 05:14:21,997 - INFO - [collect_financial_statements] 재무제표 수집 시작: 세아제강
+2025-06-17 05:14:22,079 - INFO - 기업명 : 세아제강, 기업코드 : 01325979, 주식코드 : 306200
+2025-06-17 05:14:22,079 - INFO - 산업 분류 정보 : {'level1': '제조업', 'level2': '1차 금속 제조업', 'level3': '1차 철강 제조업', 'level4': '철강관 제조업', 'level5': '없음'}
+2025-06-17 05:14:22,079 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 05:14:22,311 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 05:14:23,320 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 05:14:23,432 - INFO - [search_company] 기업 검색 시작: 세아제강
+2025-06-17 05:14:54,279 - ERROR - 초기 검색 및 재무제표 URL 조회 실패: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#date7")
+    - locator resolved to <a id="date7" title="10년" class="btnDate" onclick="setDate(7);" href="javascript:void(0);">10년</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tbLInner">…</div> from <div id="winCorpInfo">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tbLInner">…</div> from <div id="winCorpInfo">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="tbLInner">…</div> from <div id="winCorpInfo">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+2025-06-17 05:14:54,283 - INFO - 페이지 닫기 완료
+2025-06-17 05:14:54,286 - INFO - 컨텍스트 닫기 완료
+2025-06-17 05:14:54,319 - INFO - 브라우저 닫기 완료
+2025-06-17 05:14:54,326 - INFO - playwright 종료 완료
+2025-06-17 05:22:25,971 - INFO - [collect_financial_statements] 재무제표 수집 시작: 세아제강
+2025-06-17 05:22:26,052 - INFO - 기업명 : 세아제강, 기업코드 : 01325979, 주식코드 : 306200
+2025-06-17 05:22:26,053 - INFO - 산업 분류 정보 : {'level1': '제조업', 'level2': '1차 금속 제조업', 'level3': '1차 철강 제조업', 'level4': '철강관 제조업', 'level5': '없음'}
+2025-06-17 05:22:26,053 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 05:22:26,284 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 05:22:27,937 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 05:22:28,045 - INFO - [search_company] 기업 검색 시작: 세아제강
+2025-06-17 05:22:31,660 - INFO - [search_company] 기업 검색 완료: 세아제강
+2025-06-17 05:22:31,660 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 05:22:31,663 - INFO - [collect_report_list] 보고서 목록 수집 완료: 1개
+2025-06-17 05:23:01,669 - ERROR - [collect_report_list] 행 1 처리 중 오류: Locator.text_content: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#tbody tr").first.locator("td").nth(1)
+
+2025-06-17 05:23:01,669 - INFO - [collect_report_list] 총 0개 보고서 정보 수집 완료
+2025-06-17 05:23:01,669 - WARNING - 세아제강 기업코드: 01325979, 종목코드: 306200의 사업보고서가 조회되지 않습니다.
+2025-06-17 05:23:01,672 - INFO - 페이지 닫기 완료
+2025-06-17 05:23:01,675 - INFO - 컨텍스트 닫기 완료
+2025-06-17 05:23:01,716 - INFO - 브라우저 닫기 완료
+2025-06-17 05:23:01,722 - INFO - playwright 종료 완료
+2025-06-17 05:26:40,788 - INFO - [collect_financial_statements] 재무제표 수집 시작: 세아제강
+2025-06-17 05:26:40,871 - INFO - 기업명 : 세아제강, 기업코드 : 01325979, 주식코드 : 306200
+2025-06-17 05:26:40,871 - INFO - 산업 분류 정보 : {'level1': '제조업', 'level2': '1차 금속 제조업', 'level3': '1차 철강 제조업', 'level4': '철강관 제조업', 'level5': '없음'}
+2025-06-17 05:26:40,871 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 05:26:41,098 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 05:26:42,255 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 05:26:42,373 - INFO - [search_company] 기업 검색 시작: 세아제강
+2025-06-17 05:26:45,982 - INFO - [search_company] 기업 검색 완료: 세아제강
+2025-06-17 05:26:45,982 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 05:26:45,994 - INFO - [collect_report_list] 선택자 'table.tbList' 로 1개 테이블 발견
+2025-06-17 05:26:48,000 - INFO - [collect_report_list] 선택자 'table.tbList tbody tr' 로 1개 행 발견
+2025-06-17 05:26:48,000 - INFO - [collect_report_list] 보고서 목록 수집 완료: 1개
+2025-06-17 05:26:48,005 - WARNING - [collect_report_list] 행 1: td 개수 부족 (1개)
+2025-06-17 05:26:48,005 - INFO - [collect_report_list] 총 0개 보고서 정보 수집 완료
+2025-06-17 05:26:48,005 - WARNING - 세아제강 기업코드: 01325979, 종목코드: 306200의 사업보고서가 조회되지 않습니다.
+2025-06-17 05:26:48,007 - INFO - 페이지 닫기 완료
+2025-06-17 05:26:48,011 - INFO - 컨텍스트 닫기 완료
+2025-06-17 05:26:48,035 - INFO - 브라우저 닫기 완료
+2025-06-17 05:26:48,041 - INFO - playwright 종료 완료
+2025-06-17 05:30:00,121 - INFO - [collect_financial_statements] 재무제표 수집 시작: 세아제강
+2025-06-17 05:30:00,199 - INFO - 기업명 : 세아제강, 기업코드 : 01325979, 주식코드 : 306200
+2025-06-17 05:30:00,199 - INFO - 산업 분류 정보 : {'level1': '제조업', 'level2': '1차 금속 제조업', 'level3': '1차 철강 제조업', 'level4': '철강관 제조업', 'level5': '없음'}
+2025-06-17 05:30:00,199 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 05:30:00,411 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 05:30:01,394 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 05:30:01,513 - INFO - [search_company] 기업 검색 시작: 세아제강
+2025-06-17 05:30:32,375 - ERROR - 초기 검색 및 재무제표 URL 조회 실패: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#searchForm .subSearchWrap .subSearch").locator("ul > li").nth(2).locator(".rWrap .dateSelect").locator(".btnDate").nth(5)
+    - locator resolved to <a id="date7" title="10년" class="btnDate" onclick="setDate(7);" href="javascript:void(0);">10년</a>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tbLInner">…</div> from <div id="winCorpInfo">…</div> subtree intercepts pointer events
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is visible, enabled and stable
+      - scrolling into view if needed
+      - done scrolling
+      - <div class="tbLInner">…</div> from <div id="winCorpInfo">…</div> subtree intercepts pointer events
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is visible, enabled and stable
+       - scrolling into view if needed
+       - done scrolling
+       - <div class="tbLInner">…</div> from <div id="winCorpInfo">…</div> subtree intercepts pointer events
+     - retrying click action
+       - waiting 500ms
+
+2025-06-17 05:30:32,378 - INFO - 페이지 닫기 완료
+2025-06-17 05:30:32,381 - INFO - 컨텍스트 닫기 완료
+2025-06-17 05:30:32,415 - INFO - 브라우저 닫기 완료
+2025-06-17 05:30:32,421 - INFO - playwright 종료 완료
+2025-06-17 05:47:41,340 - INFO - [collect_financial_statements] 재무제표 수집 시작: 세아제강
+2025-06-17 05:47:41,340 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 05:47:41,550 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 05:47:42,682 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 05:47:42,801 - INFO - [search_company] 기업 검색 시작: 세아제강
+2025-06-17 06:01:11,048 - INFO - [collect_financial_statements] 재무제표 수집 시작: 영풍제지
+2025-06-17 06:01:11,049 - INFO - [init] playwright 브라우저 초기화 시작
+2025-06-17 06:01:11,263 - INFO - [init] 브라우저 초기화 완료
+2025-06-17 06:01:12,908 - INFO - [init] DART 페이지 접속 완료
+2025-06-17 06:01:13,018 - INFO - [search_company] 기업 검색 시작: 영풍제지
+2025-06-17 06:01:16,054 - INFO - [search_company] 기업 검색 완료: 영풍제지
+2025-06-17 06:01:16,054 - INFO - [collect_report_list] 보고서 목록 수집 시작
+2025-06-17 06:01:16,057 - INFO - [collect_report_list] 보고서 목록 수집 완료: 11개
+2025-06-17 06:01:16,071 - INFO - [collect_report_list] 행 1: 영풍제지 - 2024.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250411003513
+2025-06-17 06:01:16,080 - INFO - [collect_report_list] 행 2: 영풍제지 - 2023.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20240321000051
+2025-06-17 06:01:16,089 - INFO - [collect_report_list] 행 3: 영풍제지 - 2022.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20230712000496
+2025-06-17 06:01:16,096 - INFO - [collect_report_list] 행 4: 영풍제지 - 2021.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20220318000643
+2025-06-17 06:01:16,103 - INFO - [collect_report_list] 행 5: 영풍제지 - 2020.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20210323000566
+2025-06-17 06:01:16,110 - INFO - [collect_report_list] 행 6: 영풍제지 - 2019.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20200330002643
+2025-06-17 06:01:16,117 - INFO - [collect_report_list] 행 7: 영풍제지 - 2018.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20190401002111
+2025-06-17 06:01:16,124 - INFO - [collect_report_list] 행 8: 영풍제지 - 2017.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20180330000958
+2025-06-17 06:01:16,131 - INFO - [collect_report_list] 행 9: 영풍제지 - 2016.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20170331002547
+2025-06-17 06:01:16,139 - INFO - [collect_report_list] 행 10: 영풍제지 - 2015.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20160330004182
+2025-06-17 06:01:16,146 - INFO - [collect_report_list] 행 11: 영풍제지 - 2014.12 - https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20150630000292
+2025-06-17 06:01:16,146 - INFO - [collect_report_list] 총 11개 보고서 정보 수집 완료
+2025-06-17 06:01:16,146 - INFO - [collect_financial_statements] 총 11개 보고서 정보 수집 완료
+2025-06-17 06:01:16,146 - INFO - [collect_financial_statements] 1번째 보고서 수집 시작
+2025-06-17 06:01:16,146 - INFO - [collect_financial_statements] 회사명: 영풍제지, 보고서명: [기재정정]사업보고서, 발행일: 2024.12, 보고서 URL: https://dart.fss.or.kr//dsaf001/main.do?rcpNo=20250411003513
+2025-06-17 06:01:16,864 - INFO - [search_left_panel_tree] 좌측 트리 검색 시작
+2025-06-17 06:01:16,874 - INFO - [search_left_panel_tree] 좌측 트리 검색 완료: 11개
+2025-06-17 06:01:16,882 - INFO - [search_left_panel_tree] '재무에 관한 사항' 노드 발견
+2025-06-17 06:01:18,018 - INFO - [search_left_panel_tree] level1 '재무에 관한 사항'의 자식 노드 수: 16
+2025-06-17 06:01:18,025 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드 발견
+2025-06-17 06:01:18,027 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' - 하위 노드 탐색
+2025-06-17 06:01:18,030 - INFO - [search_left_panel_tree] level2 '2. 연결재무제표' 노드의 자식 노드 수: 4
+2025-06-17 06:01:18,034 - INFO - [search_left_panel_tree] level3 '2-1. 연결 재무상태표' 노드 발견
+2025-06-17 06:01:18,034 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-1. 연결 재무상태표
+2025-06-17 06:01:19,178 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 06:01:20,206 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 06:01:20,231 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 06:01:20,234 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 연결재무상태표
+2025-06-17 06:01:20,257 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 06:01:20,262 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 06:01:20,265 - INFO - [valid_standard_data_table] 헤더 2: 제 55 기
+2025-06-17 06:01:20,267 - INFO - [valid_standard_data_table] 헤더 3: 제 54 기
+2025-06-17 06:01:20,270 - INFO - [valid_standard_data_table] 헤더 4: 제 53 기
+2025-06-17 06:01:20,270 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 06:01:20,272 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 48
+2025-06-17 06:01:20,272 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 06:01:20,275 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 06:01:20,291 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 06:01:20,317 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '45,481,972,718', '61,503,210,872', '54,442,061,424']
+2025-06-17 06:01:20,331 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '7,870,327,653', '31,885,070,620', '8,201,447,488']
+2025-06-17 06:01:20,346 - INFO - [search_right_panel] 표준 행 4: ['금융기관예치금', '186,000,000', '156,000,000', '0']
+2025-06-17 06:01:20,361 - INFO - [search_right_panel] 표준 행 5: ['매출채권', '9,119,682,719', '8,698,768,907', '11,797,526,580']
+2025-06-17 06:01:20,363 - INFO - [search_left_panel_tree] level3 '2-2. 연결 포괄손익계산서' 노드 발견
+2025-06-17 06:01:20,363 - INFO - [search_left_panel_tree] 타겟 노드 발견: 2-2. 연결 포괄손익계산서
+2025-06-17 06:01:21,486 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 06:01:22,511 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 06:01:22,534 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 06:01:22,537 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 연결포괄손익계산서
+2025-06-17 06:01:22,559 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 06:01:22,564 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 06:01:22,566 - INFO - [valid_standard_data_table] 헤더 2: 제 55 기
+2025-06-17 06:01:22,569 - INFO - [valid_standard_data_table] 헤더 3: 제 54 기
+2025-06-17 06:01:22,571 - INFO - [valid_standard_data_table] 헤더 4: 제 53 기
+2025-06-17 06:01:22,571 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 06:01:22,574 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 27
+2025-06-17 06:01:22,574 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 06:01:22,576 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 06:01:22,592 - INFO - [search_right_panel] 표준 행 1: ['매출액', '88,112,890,040', '82,568,024,475', '105,449,038,864']
+2025-06-17 06:01:22,606 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '87,411,308,042', '72,604,756,426', '88,351,674,730']
+2025-06-17 06:01:22,620 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '701,581,998', '9,963,268,049', '17,097,364,134']
+2025-06-17 06:01:22,634 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '14,564,708,412', '12,955,748,174', '9,293,352,888']
+2025-06-17 06:01:22,647 - INFO - [search_right_panel] 표준 행 5: ['영업이익(손실)', '(13,863,126,414)', '(2,992,480,125)', '7,804,011,246']
+2025-06-17 06:01:22,649 - INFO - [search_left_panel_tree] level3 '2-3. 연결 자본변동표' 노드 발견
+2025-06-17 06:01:22,651 - INFO - [search_left_panel_tree] level3 '2-4. 연결 현금흐름표' 노드 발견
+2025-06-17 06:01:22,663 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드 발견
+2025-06-17 06:01:22,664 - INFO - [search_left_panel_tree] level2 '4. 재무제표' - 하위 노드 탐색
+2025-06-17 06:01:22,666 - INFO - [search_left_panel_tree] level2 '4. 재무제표' 노드의 자식 노드 수: 4
+2025-06-17 06:01:22,670 - INFO - [search_left_panel_tree] level3 '4-1. 재무상태표' 노드 발견
+2025-06-17 06:01:22,670 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-1. 재무상태표
+2025-06-17 06:01:23,798 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 06:01:24,821 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 06:01:24,842 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 06:01:24,845 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 재무상태표
+2025-06-17 06:01:24,867 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 06:01:24,872 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 06:01:24,874 - INFO - [valid_standard_data_table] 헤더 2: 제 55 기
+2025-06-17 06:01:24,877 - INFO - [valid_standard_data_table] 헤더 3: 제 54 기
+2025-06-17 06:01:24,879 - INFO - [valid_standard_data_table] 헤더 4: 제 53 기
+2025-06-17 06:01:24,879 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 06:01:24,881 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 45
+2025-06-17 06:01:24,881 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 06:01:24,883 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 06:01:24,900 - INFO - [search_right_panel] 표준 행 1: ['자산', '', '', '']
+2025-06-17 06:01:24,928 - INFO - [search_right_panel] 표준 행 2: ['유동자산', '55,802,879,359', '65,294,493,658', '54,384,838,954']
+2025-06-17 06:01:24,941 - INFO - [search_right_panel] 표준 행 3: ['현금및현금성자산', '7,586,877,400', '31,747,220,335', '8,074,640,709']
+2025-06-17 06:01:24,955 - INFO - [search_right_panel] 표준 행 4: ['매출채권', '11,010,128,808', '8,867,985,422', '11,797,526,580']
+2025-06-17 06:01:24,969 - INFO - [search_right_panel] 표준 행 5: ['기타수취채권', '12,940,970,073', '5,878,974,189', '18,129,863,509']
+2025-06-17 06:01:24,971 - INFO - [search_left_panel_tree] level3 '4-2. 포괄손익계산서' 노드 발견
+2025-06-17 06:01:24,971 - INFO - [search_left_panel_tree] 타겟 노드 발견: 4-2. 포괄손익계산서
+2025-06-17 06:01:26,096 - INFO - [search_right_panel] 우측 패널 검색 시작
+2025-06-17 06:01:27,120 - INFO - [search_right_panel] 총 2개 테이블 발견
+2025-06-17 06:01:27,142 - INFO - [search_right_panel] 0번째 nb 테이블 표준 양식 여부: True
+2025-06-17 06:01:27,144 - INFO - [search_right_panel] 0번째 표준 nb 테이블 제목(sj_div): 포괄손익계산서
+2025-06-17 06:01:27,166 - INFO - [valid_standard_data_table] 헤더 열 수: 4
+2025-06-17 06:01:27,170 - INFO - [valid_standard_data_table] 헤더 1: 
+2025-06-17 06:01:27,173 - INFO - [valid_standard_data_table] 헤더 2: 제 55 기
+2025-06-17 06:01:27,175 - INFO - [valid_standard_data_table] 헤더 3: 제 54 기
+2025-06-17 06:01:27,177 - INFO - [valid_standard_data_table] 헤더 4: 제 53 기
+2025-06-17 06:01:27,177 - INFO - [search_right_panel] 1번째 데이터 테이블 표준 양식 여부: True
+2025-06-17 06:01:27,179 - INFO - [search_right_panel] 데이터 테이블 2 행 수: 21
+2025-06-17 06:01:27,179 - INFO - [search_right_panel] 1번째 표준 데이터 테이블 처리 시작
+2025-06-17 06:01:27,181 - INFO - [search_right_panel] 표준 데이터 샘플 (처음 5행):
+2025-06-17 06:01:27,196 - INFO - [search_right_panel] 표준 행 1: ['매출액', '81,851,012,283', '78,585,489,154', '105,452,638,864']
+2025-06-17 06:01:27,209 - INFO - [search_right_panel] 표준 행 2: ['매출원가', '80,516,992,956', '68,537,119,062', '88,351,674,730']
+2025-06-17 06:01:27,222 - INFO - [search_right_panel] 표준 행 3: ['매출총이익', '1,334,019,327', '10,048,370,092', '17,100,964,134']
+2025-06-17 06:01:27,234 - INFO - [search_right_panel] 표준 행 4: ['판매비와관리비', '12,376,316,379', '11,564,067,358', '9,244,019,746']
+2025-06-17 06:01:27,249 - INFO - [search_right_panel] 표준 행 5: ['영업이익(손실)', '(11,042,297,052)', '(1,515,697,266)', '7,856,944,388']
+2025-06-17 06:01:27,251 - INFO - [search_left_panel_tree] level3 '4-3. 자본변동표' 노드 발견
+2025-06-17 06:01:27,253 - INFO - [search_left_panel_tree] level3 '4-4. 현금흐름표' 노드 발견

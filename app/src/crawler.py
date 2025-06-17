@@ -6,8 +6,8 @@ from typing import Optional
 from pymongo import MongoClient
 from motor.motor_asyncio import AsyncIOMotorClient
 
-from playwright.async_api import async_playwright, Page, Browser, BrowserContext
 from playwright.async_api import TimeoutError as PlaywrightTimeoutError
+from playwright.async_api import async_playwright, Page, Browser, BrowserContext, ElementHandle
 
 from app.src.corp_code import search_company
 from app.utils.time import get_current_korea_time
@@ -79,6 +79,8 @@ class FinancialStatementCrawler:
 
         await self.page.locator('#date7').click() ## 기간 선택
         await self.page.locator('#li_01 > label').click() ## 정기공시 클릭
+        await asyncio.sleep(1)
+
         await self.page.locator('#divPublicTypeDetail_01 > ul > li:nth-child(1) > span > label').click() ## 사업보고서 클릭
         await self.page.locator('#searchForm > div.subSearchWrap > div.btnArea > a.btnSearch').click()
 
@@ -151,84 +153,226 @@ class FinancialStatementCrawler:
         return reports
     
 
-    async def search_right_panel(self):
-        logger.info(f"[search_right_panel] 우측 패널 검색 시작")
-        
-        # iframe이 로드될 때까지 대기
-        await self.page.wait_for_selector('#ifrm', timeout=30000)
-        
-        # iframe 내부 콘텐츠 로드 대기
-        await asyncio.sleep(3)
+    async def valid_standard_nb_table(self, table: ElementHandle):
+        """nb 테이블의 표준 양식 검증"""
+        is_standard_table = False
         
         try:
-            # iframe 내부에 접근
-            iframe = self.page.frame_locator('#ifrm')
-            await iframe.locator('body').wait_for(timeout=15000)
+            trs = table.locator('tr')
+            tr_count = await trs.count()
             
-            # 재무제표 테이블 찾기
-            tables = iframe.locator('table')
-            table_count = await tables.count()
+            # nb 테이블은 최소 5개 행이 있어야 함 (제목, 3개 연도행, 단위행)
+            if tr_count < 5:
+                # logger.info(f"[valid_standard_nb_table] 행 수 부족: {tr_count}")
+                return False
+            
+            # 1, 2, 3번째 행(인덱스 1, 2, 3)에서 연도 정보 확인
+            years_found = []
+            for i in range(1, 4):
+                tr = trs.nth(i)
+                tds = tr.locator('td')
+                td_count = await tds.count()
+                
+                if td_count >= 1:  # 최소 1개의 td가 있어야 함
+                    td = tds.first
+                    td_text = await td.text_content()
+                    if td_text and re.match(r'제\s*\d+\s*기', td_text.strip()):
+                        years_found.append(td_text.strip())
+                        # logger.info(f"[valid_standard_nb_table] {i}번째 행에서 연도 발견: {td_text.strip()}")
+            
+            # 3개의 연도가 모두 '제 OO 기' 형태인지 확인
+            if len(years_found) == 3:
+                is_standard_table = True
+                
+        except Exception as e:
+            logger.warning(f"[valid_standard_nb_table] 검증 중 오류: {str(e)}")
+            
+        return is_standard_table
+
+    async def valid_standard_data_table(self, table: ElementHandle):
+        """데이터 테이블(border=1)의 표준 양식 검증"""
+        is_standard_table = False
+        
+        # 헤더 행 확인
+        header_row = table.locator('thead tr').first
+        if await header_row.count() > 0:
+            header_cells = header_row.locator('th')
+            
+            is_standard_table = True
+            header_count = await header_cells.count()
+            logger.info(f"[valid_standard_data_table] 헤더 열 수: {header_count}")
+
+            if header_count != 4:
+                is_standard_table = False
+            
+            header_list = await header_cells.all()
+            for j, header in enumerate(header_list):
+                header_text = await header.text_content()
+                if j == 0 and header_text.strip() != '':
+                    is_standard_table = False
+                
+                if 1 < j < 4 and header_text.strip() != '':
+                    # '제 OO 기' 형태가 아니라면 표준 양식이 아님
+                    if not re.match(r'제\s*\d+\s*기', header_text.strip()):
+                        is_standard_table = False
+                        break
+                logger.info(f"[valid_standard_data_table] 헤더 {j+1}: {header_text.strip() if header_text else ''}")
+        else:
+            logger.info(f"[valid_standard_data_table] 헤더 행을 찾을 수 없음 - 비표준 테이블로 처리")
+
+        return is_standard_table
+    
+
+    async def search_right_panel(self):
+        logger.info(f"[search_right_panel] 우측 패널 검색 시작")
+
+        await self.page.wait_for_selector('#ifrm', timeout=30000) ## iframe이 로드될 때까지 대기
+        await asyncio.sleep(1) ## iframe 내부 콘텐츠 로드 대기
+        
+        try:
+            iframe = self.page.frame_locator('#ifrm') ## iframe 내부에 접근
+            await iframe.locator('body').wait_for(timeout=15000) ## iframe 내부 콘텐츠 로드 대기
+            
+            tables = iframe.locator('table') ## iframe 내부에 속한 모든 table 요소
+            table_count = await tables.count() ## table 요소의 개수
             logger.info(f"[search_right_panel] 총 {table_count}개 테이블 발견")
             
             if table_count > 0:
                 tables_list = await tables.all()
-                
+
+                template = {
+                    "sj_div": "",
+                    "years": [],
+                    "unit": "",
+                    "data": []
+                }
+                dataset = []
                 for i, table in enumerate(tables_list):
                     try:
-                        # 테이블 클래스 확인
                         table_class = await table.get_attribute("class")
                         table_border = await table.get_attribute("border")
                         
-                        # 제목 테이블 (class="nb") vs 데이터 테이블 (border="1") 구분
+                        ## nb 테이블 처리
                         if table_class == "nb":
-                            # 제목 테이블 처리
-                            table_title = await table.text_content()
-                            clean_title = table_title.strip().replace('\n', ' ').replace('\t', ' ')
-                            logger.info(f"[search_right_panel] 제목 테이블 {i+1}: {clean_title}")
+                            # 표준 양식 검증
+                            is_standard = await self.valid_standard_nb_table(table)
+                            logger.info(f"[search_right_panel] {i}번째 nb 테이블 표준 양식 여부: {is_standard}")
                             
+                            if is_standard:
+                                # 표준 양식 nb 테이블 처리
+                                years = []
+                                trs = table.locator('tr')
+
+                                nb_title = await trs.nth(0).text_content()
+                                nb_title = clean_paragraph_text(nb_title)
+
+                                if nb_title not in self.TARGET_SJ_LIST:
+                                    continue
+                                
+                                template["sj_div"] = nb_title
+                                logger.info(f"[search_right_panel] {i}번째 표준 nb 테이블 제목(sj_div): {nb_title}")
+
+                                for j in range(1, 4):
+                                    tr = trs.nth(j)
+                                    tds = tr.locator('td')
+                                    tds_list = await tds.all()
+                                    for td in tds_list:
+                                        td_text = await td.text_content()
+                                        year = extract_year_from_report_title(td_text)
+                                        years.append(year)
+
+                                if len(years) != 3:
+                                    continue
+
+                                if len(years) == 3:
+                                    report_year = self.page.url
+                                    report_year = report_year.split('=')[-1][:5]
+                                    
+                                    if int(report_year) != int(years[0]) and int(report_year) != int(years[1]) and int(report_year) != int(years[2]):
+                                        continue
+                                    
+                                
+                                template["years"] = years
+                                logger.info(f"[search_right_panel] {i}번째 표준 nb 테이블 추출 결과 (years): {years}")
+
+                                unit = await trs.nth(4).text_content()
+                                unit = re.search(r'\(\s*단위\s*:\s*([^)]+)\)', unit)
+                                if unit:
+                                    unit = unit.group(1).strip()
+                                
+                                template["unit"] = unit
+                                logger.info(f"[search_right_panel] {i}번째 표준 nb 테이블 단위: {unit}")
+                            else:
+                                # 비표준 양식 nb 테이블 처리
+                                logger.info(f"[search_right_panel] {i}번째 비표준 nb 테이블 - 별도 처리 로직 필요")
+                                # TODO: 비표준 양식에 대한 처리 로직 구현
+                                        
+                                
+
                         elif table_border == "1":
-                            # 데이터 테이블 처리
-                            logger.info(f"[search_right_panel] 데이터 테이블 {i+1} 발견")
+                            # 표준 양식 검증
+                            is_standard = await self.valid_standard_data_table(table)
+                            logger.info(f"[search_right_panel] {i}번째 데이터 테이블 표준 양식 여부: {is_standard}")
                             
                             # 테이블 행 수 확인
                             rows = table.locator('tr')
                             row_count = await rows.count()
                             logger.info(f"[search_right_panel] 데이터 테이블 {i+1} 행 수: {row_count}")
                             
-                            # 헤더 행 확인
-                            header_row = table.locator('thead tr').first
-                            if await header_row.count() > 0:
-                                header_cells = header_row.locator('th')
-                                header_count = await header_cells.count()
-                                logger.info(f"[search_right_panel] 헤더 열 수: {header_count}")
+                            if is_standard:
+                                # 표준 양식 데이터 테이블 처리
+                                logger.info(f"[search_right_panel] {i}번째 표준 데이터 테이블 처리 시작")
                                 
-                                # 헤더 내용 출력
-                                header_list = await header_cells.all()
-                                for j, header in enumerate(header_list):
-                                    header_text = await header.text_content()
-                                    logger.info(f"[search_right_panel] 헤더 {j+1}: {header_text.strip() if header_text else ''}")
-                            
-                            # 처음 몇 행의 데이터 샘플 출력
-                            tbody_rows = table.locator('tbody tr')
-                            tbody_count = await tbody_rows.count()
-                            sample_count = min(5, tbody_count)  # 최대 5행만 샘플로 출력
-                            
-                            if sample_count > 0:
-                                logger.info(f"[search_right_panel] 데이터 샘플 (처음 {sample_count}행):")
-                                tbody_list = await tbody_rows.all()
+                                # 처음 몇 행의 데이터 샘플 출력
+                                tbody_rows = table.locator('tbody tr')
+                                tbody_count = await tbody_rows.count()
+                                sample_count = min(5, tbody_count)  # 최대 5행만 샘플로 출력
                                 
-                                for k in range(sample_count):
-                                    row = tbody_list[k]
-                                    cells = row.locator('td')
-                                    cell_count = await cells.count()
+                                if sample_count > 0:
+                                    logger.info(f"[search_right_panel] 표준 데이터 샘플 (처음 {sample_count}행):")
+                                    tbody_list = await tbody_rows.all()
                                     
-                                    cell_texts = []
-                                    cell_list = await cells.all()
-                                    for cell in cell_list:
-                                        cell_text = await cell.text_content()
-                                        cell_texts.append(cell_text.strip() if cell_text else '')
+                                    for k in range(sample_count):
+                                        row = tbody_list[k]
+                                        cells = row.locator('td')
+                                        cell_count = await cells.count()
+                                        
+                                        cell_texts = []
+                                        cell_list = await cells.all()
+                                        for cell in cell_list:
+                                            cell_text = await cell.text_content()
+                                            cell_texts.append(cell_text.strip() if cell_text else '')
+                                        
+                                        logger.info(f"[search_right_panel] 표준 행 {k+1}: {cell_texts}")
+                                
+                                # TODO: 표준 양식 데이터 테이블에 대한 실제 데이터 추출 로직 구현
+                            else:
+                                # 비표준 양식 데이터 테이블 처리
+                                logger.info(f"[search_right_panel] {i}번째 비표준 데이터 테이블 처리 시작")
+                                
+                                # 처음 몇 행의 데이터 샘플 출력
+                                tbody_rows = table.locator('tbody tr')
+                                tbody_count = await tbody_rows.count()
+                                sample_count = min(5, tbody_count)  # 최대 5행만 샘플로 출력
+                                
+                                if sample_count > 0:
+                                    logger.info(f"[search_right_panel] 비표준 데이터 샘플 (처음 {sample_count}행):")
+                                    tbody_list = await tbody_rows.all()
                                     
-                                    logger.info(f"[search_right_panel] 행 {k+1}: {cell_texts}")
+                                    for k in range(sample_count):
+                                        row = tbody_list[k]
+                                        cells = row.locator('td')
+                                        cell_count = await cells.count()
+                                        
+                                        cell_texts = []
+                                        cell_list = await cells.all()
+                                        for cell in cell_list:
+                                            cell_text = await cell.text_content()
+                                            cell_texts.append(cell_text.strip() if cell_text else '')
+                                        
+                                        logger.info(f"[search_right_panel] 비표준 행 {k+1}: {cell_texts}")
+                                
+                                # TODO: 비표준 양식 데이터 테이블에 대한 별도 처리 로직 구현
                         
                         else:
                             logger.info(f"[search_right_panel] 기타 테이블 {i+1}: 클래스={table_class}, border={table_border}")
@@ -240,26 +384,6 @@ class FinancialStatementCrawler:
                 
         except Exception as e:
             logger.error(f"[search_right_panel] iframe 접근 실패: {str(e)}")
-            
-            # 대안: content_frame 방법 시도
-            try:
-                iframe_element = await self.page.wait_for_selector('#ifrm', timeout=10000)
-                frame = await iframe_element.content_frame()
-                
-                if frame:
-                    await frame.wait_for_load_state('networkidle', timeout=15000)
-                    
-                    tables = frame.locator('table')
-                    table_count = await tables.count()
-                    logger.info(f"[search_right_panel] content_frame으로 {table_count}개 테이블 발견")
-                    
-                    # 동일한 테이블 처리 로직 적용...
-                    
-                else:
-                    logger.error(f"[search_right_panel] content_frame을 가져올 수 없습니다")
-                    
-            except Exception as frame_e:
-                logger.error(f"[search_right_panel] content_frame 방법도 실패: {str(frame_e)}")
 
         return True
     
