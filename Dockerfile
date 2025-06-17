@@ -58,6 +58,32 @@ RUN apt-get update -q && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
+
+# -------- Google Chrome + ChromeDriver --------
+  RUN set -eux; \
+  # fonts‑liberation 설치를 위해 universe 활성화 & 최신화
+  apt-get update && \
+  apt-get install -y --no-install-recommends fonts-liberation wget unzip ca-certificates gnupg2 && \
+  \
+  # Google 리포 키/소스 추가
+  wget -qO- https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/google.gpg && \
+  echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google.gpg] http://dl.google.com/linux/chrome/deb/ stable main" \
+      > /etc/apt/sources.list.d/google.list && \
+  apt-get update && \
+  apt-get install -y --no-install-recommends google-chrome-stable && \
+  \
+  # ChromeDriver 버전 자동 매칭
+  CHROME_VERSION="$(google-chrome --version | awk '{print $3}')" && \
+  MAJOR="$(echo $CHROME_VERSION | cut -d. -f1)" && \
+  wget -O /tmp/chromedriver.zip "https://storage.googleapis.com/chrome-for-testing-public/${CHROME_VERSION}/linux64/chromedriver-linux64.zip" && \
+  unzip /tmp/chromedriver.zip -d /usr/local/bin/ && \
+  chmod +x /usr/local/bin/chromedriver-linux64/chromedriver && \
+  ln -s /usr/local/bin/chromedriver-linux64/chromedriver /usr/local/bin/chromedriver && \
+  rm /tmp/chromedriver.zip && \
+  \
+  # 정리
+  apt-get clean && rm -rf /var/lib/apt/lists/*
+
     
 WORKDIR /playwright-crawler
 COPY . /playwright-crawler

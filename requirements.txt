@@ -10,3 +10,6 @@ pytz
 pandas
 aiofiles
 aiohttp
+
+selenium
+webdriver-manager

@@ -6,8 +6,6 @@ import psutil
 import pandas as pd
 
 from typing import Optional
-from pymongo import MongoClient
-from motor.motor_asyncio import AsyncIOMotorClient
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -19,6 +17,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.chrome import ChromeDriverManager
 
 from app.src.corp_code import search_company
 from app.utils.time import get_current_korea_time
@@ -35,13 +34,14 @@ class FinancialStatementCrawler:
         "재무상태표", "손익계산서", "포괄손익계산서",
     ]
     
-    def __init__(self, corp_name:str, stock_code:str, mongo_client=None, corp_code:Optional[str] = None, corp_type_value:str = "all", retry_count:int = 3):
+    def __init__(self, corp_name:str, stock_code:str, corp_code:Optional[str] = None, corp_type_value:str = "all", retry_count:int = 3, headless:bool = True):
         self.corp_name = corp_name
         self.stock_code = stock_code
         self.corp_code = corp_code if corp_code else None
         self.corp_type_value = corp_type_value
         self.retry_count = retry_count
         self.timeout = 5  # 타임아웃을 10초에서 5초로 줄임
+        self.headless = headless
         
         # 법인 유형 코드 매핑
         self.corp_type_map = {
@@ -51,28 +51,6 @@ class FinancialStatementCrawler:
             "N": "코넥스시장",
             "E": "기타법인"
         }
-
-        # 외부에서 제공된 MongoDB 클라이언트 처리
-        if mongo_client:
-            # AsyncIOMotorClient인 경우 동기식 MongoClient로 변환
-            if isinstance(mongo_client, AsyncIOMotorClient):
-                logger.info("AsyncIOMotorClient를 동기식 MongoClient로 변환합니다")
-                # MongoDB 환경 변수에서 연결 문자열 가져오기
-                mongodb_url = os.getenv("MONGODB_URL")
-                if not mongodb_url:
-                    # 환경 변수가 없는 경우 기본 로컬 MongoDB 연결 시도
-                    mongodb_url = "mongodb://localhost:27017"
-                    logger.warning(f"MONGODB_URL 환경 변수가 없어 기본값 사용: {mongodb_url}")
-                else:
-                    logger.info(f"환경 변수에서 MongoDB URL 사용: {mongodb_url}")
-                self.mongo_client = MongoClient(mongodb_url)
-            else:
-                self.mongo_client = mongo_client
-        else:
-            # 기존 방식으로 MongoDB 클라이언트 생성 (백업용)
-            mongodb_url = os.getenv("MONGODB_URL")
-            logger.info(f"새 MongoClient 생성: {mongodb_url}")
-            self.mongo_client = MongoClient(mongodb_url)
 
         # 초기 드라이버는 None으로 설정하고 실제 사용 시점에 생성
         self.driver = None
@@ -502,32 +480,7 @@ class FinancialStatementCrawler:
                         all_collected_data.extend(dataset if dataset else [])
                         
                         for data in dataset:
-                            try:
-                                logger.info(f"MongoDB에 저장 시도: {data['sj_div']} (기업: {corp_name}, 년도: {bsns_year})")
-                                specific_collection = self.mongo_client["dart"][data["sj_div"]]
-                                
-                                # 기존 문서 확인
-                                query = {
-                                    "corp_code": data["corp_code"],
-                                    "stock_code": data["stock_code"],
-                                    "bsns_year": data["bsns_year"],
-                                    "rcept_no": data["rcept_no"]
-                                }
-                                
-                                existing_doc = specific_collection.find_one(query)
-                                
-                                if existing_doc:
-                                    # 기존 문서가 있으면 업데이트
-                                    data["updated_at"] = get_current_korea_time()
-                                    result = specific_collection.update_one(query, {"$set": data})
-                                    logger.info(f"재무제표 데이터 업데이트: {data['corp_name']}, {data['bsns_year']}, {data['sj_div']}, modified: {result.modified_count}")
-                                else:
-                                    # 새 문서 삽입
-                                    data["created_at"] = get_current_korea_time()
-                                    result = specific_collection.insert_one(data)
-                                    logger.info(f"재무제표 데이터 저장: {data['corp_name']}, {data['bsns_year']}, {data['sj_div']}, ID: {result.inserted_id}")
-                            except Exception as e:
-                                logger.error(f"MongoDB 저장 중 오류: {e}")
+                            logger.info(f"데이터 수집 완료: {data['sj_div']} (기업: {corp_name}, 년도: {bsns_year})")
                     else:
                         continue
         
@@ -549,40 +502,8 @@ class FinancialStatementCrawler:
                         all_collected_data.extend(dataset if dataset else [])
                         
                         for data in dataset:
-                            # print(data)
-                            # 데이터베이스에 저장
-                            try:
-                                logger.info(f"MongoDB에 저장 시도: {data['sj_div']} (기업: {corp_name}, 년도: {bsns_year})")
-                                # 재무제표 유형에 따라 알맞은 컬렉션에 저장
-                                specific_collection = self.mongo_client["dart"][data["sj_div"]]
-                                
-                                # 기존 문서 확인
-                                query = {
-                                    "corp_code": data["corp_code"],
-                                    "stock_code": data["stock_code"],
-                                    "bsns_year": data["bsns_year"],
-                                    "rcept_no": data["rcept_no"]
-                                }
-                                
-                                existing_doc = specific_collection.find_one(query)
-                                
-                                if existing_doc:
-                                    # 기존 문서가 있으면 업데이트
-                                    data["updated_at"] = get_current_korea_time()
-                                    result = specific_collection.update_one(
-                                        query,
-                                        {"$set": data}
-                                    )
-                                    logger.info(f"재무제표 데이터 업데이트: {data['corp_name']}, {data['bsns_year']}, {data['sj_div']}, modified: {result.modified_count}")
-                                else:
-                                    # 새 문서 삽입
-                                    data["created_at"] = get_current_korea_time()
-                                    result = specific_collection.insert_one(data)
-                                    logger.info(f"재무제표 데이터 저장: {data['corp_name']}, {data['bsns_year']}, {data['sj_div']}, ID: {result.inserted_id}")
-                            except Exception as e:
-                                logger.error(f"MongoDB 저장 중 오류: {e}")
+                            logger.info(f"데이터 수집 완료: {data['sj_div']} (기업: {corp_name}, 년도: {bsns_year})")
                     else:
-                        # logger.info(f"sj_title : {sj_title} 대상 목록에 없음")
                         continue
             else:
                 logger.info(f"['재무에 관한 사항'] 하위 항목들이 없습니다. --> URL : {self.driver.current_url}")
@@ -594,7 +515,8 @@ class FinancialStatementCrawler:
     def _create_driver(self):
         """크롬 드라이버를 새로 생성해서 반환"""
         chrome_options = Options()
-        chrome_options.add_argument('--headless')  # 헤드리스 모드
+        if self.headless:
+            chrome_options.add_argument('--headless')  # 헤드리스 모드
         chrome_options.add_argument('--no-sandbox')
         chrome_options.add_argument('--disable-dev-shm-usage')
         chrome_options.add_argument('--window-size=1920,1080')
@@ -604,7 +526,7 @@ class FinancialStatementCrawler:
         chrome_options.add_argument('--disable-infobars')
         chrome_options.add_argument('--js-flags=--expose-gc')
         
-        service = Service("/usr/local/bin/chromedriver-linux64/chromedriver")
+        service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=chrome_options)
         
         # 명시적 타임아웃 설정
@@ -748,88 +670,20 @@ class FinancialStatementCrawler:
                 ## 기본 페이지 드라이버 정리
                 self._clean_up_driver()
                 
-                ## 사업보고서가 조회되지 않는 경우 실패 상태로 등록
+                ## 사업보고서가 조회되지 않는 경우
                 if len(fs_url_list) == 0:
                     logger.warning(f"{self.corp_name} 기업코드: {self.corp_code}, 종목코드: {self.stock_code}의 사업보고서가 조회되지 않습니다.")
-                    try:
-                        company_collection = self.mongo_client["dart"]["COMPANY"]
-                        result = company_collection.update_one(
-                            {"stock_code": self.stock_code},
-                            {"$set": {
-                                "corp_name": self.corp_name,
-                                "stock_code": self.stock_code,
-                                "corp_code": self.corp_code,
-                                "status": "failed",
-                                "message": "사업보고서가 조회되지 않음",
-                                "updated_at": get_current_korea_time()
-                            }},
-                            upsert=True
-                        )
-                        logger.info(f"기업 정보 실패 상태로 등록: {self.corp_name}, upsert: {result.upserted_id is not None}")
-                        return False, "사업보고서가 조회되지 않습니다", [], fs_collection_results
-                    except Exception as e:
-                        logger.error(f"MongoDB 저장 오류: {e}")
-                        return False, f"MongoDB 저장 오류: {e}", [], fs_collection_results
+                    return False, "사업보고서가 조회되지 않습니다", [], fs_collection_results
             
             except Exception as e:
                 logger.error(f"초기 검색 및 재무제표 URL 조회 실패: {e}")
                 self._clean_up_driver()
                 return False, f"초기 검색 및 재무제표 URL 조회 실패: {e}", [], fs_collection_results
 
-            # COMPANY 컬렉션에 기업 정보 저장
-            try:
-                company_collection = self.mongo_client["dart"]["COMPANY"]
-                logger.info(f"company 컬렉션 접근 성공")
-                
-                # 기업 존재 여부 확인
-                existing_company = company_collection.find_one({"stock_code": self.stock_code})
-                
-                if existing_company is None:
-                    # 신규 기업인 경우 bsns_years와 rcept_numbers 리스트를 생성
-                    insert_data = {
-                        "corp_name": self.corp_name,
-                        "stock_code": self.stock_code,
-                        "corp_code": self.corp_code,
-                        "corp_type_value": self.corp_type_value,
-                        "corp_type_name": self.corp_type_map.get(self.corp_type_value, "알 수 없음"),
-                        "bsns_years": [str(year) for year in public_year_list],
-                        "rcept_numbers": [url.split("=")[-1] for url in fs_url_list],
-                        "created_at": get_current_korea_time()
-                    }
-                    
-                    # 산업 분류 정보 추가
-                    if industry_levels:
-                        insert_data.update(industry_levels)
-                    result = company_collection.insert_one(insert_data)
-                    
-                else:
-                    # 기존 기업인 경우 bsns_years와 rcept_numbers 리스트에 값 추가
-                    update_data = {
-                        "$addToSet": {
-                            "bsns_years": {"$each": [str(year) for year in public_year_list]},
-                            "rcept_numbers": {"$each": [url.split("=")[-1] for url in fs_url_list]}
-                        },
-                        "$set": {
-                            "corp_type_value": self.corp_type_value,
-                            "corp_type_name": self.corp_type_map.get(self.corp_type_value, "알 수 없음"),
-                            "updated_at": get_current_korea_time()
-                        }
-                    }
-                    
-                    # 산업 분류 정보 추가
-                    if industry_levels:
-                        for level_key, level_value in industry_levels.items():
-                            if level_value:  # 값이 있는 경우에만 업데이트
-                                update_data["$set"][level_key] = level_value
-                    
-                    result = company_collection.update_one(
-                        {"stock_code": self.stock_code},
-                        update_data
-                    )
-                    logger.info(f"기업 정보 업데이트: {self.corp_name}, modified: {result.modified_count}")
-
-            except Exception as e:
-                logger.error(f"MongoDB COMPANY 컬렉션 저장 오류: {e}")
+            # 기업 정보 로깅
+            logger.info(f"기업 정보 - 산업 분류: {industry_levels}")
+            logger.info(f"사업 연도: {[str(year) for year in public_year_list]}")
+            logger.info(f"접수 번호: {[url.split('=')[-1] for url in fs_url_list]}")
 
             # 각 재무제표 URL에 대해 개별적으로 드라이버 생성하고 처리
             for url_idx, (public_year, fs_url) in enumerate(zip(public_year_list, fs_url_list)):

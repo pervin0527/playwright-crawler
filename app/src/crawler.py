@@ -67,15 +67,19 @@ class FinancialStatementCrawler:
         return True
     
 
-    async def search_company(self, company_name: str):
-        logger.info(f"[search_company] 기업 검색 시작: {company_name}")
+    async def search_by_corp_name(self, company_name: str, stock_code: str):
+        logger.info(f"[search_by_corp_name] 기업 검색 시작: {company_name}")
 
         search_input = self.page.locator('#textCrpNm2')
         await search_input.fill(company_name)
         await search_input.press('Enter')
 
+        await asyncio.sleep(1)
         await self.page.wait_for_load_state('networkidle')
         await self.page.screenshot(path=f'/playwright-crawler/screenshots/01_query_input.png')
+
+        ## 기업 검색 결과가 여러 개인 경우 팝업 창이 발생하므로 처리
+        await self.search_pop_closing(company_name, stock_code)
 
         await self.page.locator('#date7').click() ## 기간 선택
         await self.page.locator('#li_01 > label').click() ## 정기공시 클릭
@@ -89,9 +93,66 @@ class FinancialStatementCrawler:
         await self.page.wait_for_load_state('networkidle')
         await self.page.screenshot(path=f'/playwright-crawler/screenshots/02_set_option.png')
 
-        logger.info(f"[search_company] 기업 검색 완료: {company_name}")
+        logger.info(f"[search_by_corp_name] 기업 검색 완료: {company_name}")
         return True
-    
+
+
+    async def search_pop_closing(self, target_name:str, target_stock_code:str):
+        logger.info(f"[search_pop_closing] 기업 명단 팝업 창 존재 여부 확인 시작")
+        win_corp_info = self.page.locator('//*[@id="winCorpInfo"]')
+        win_corp_info_style = await win_corp_info.get_attribute('style')
+        logger.info(f"[search_pop_closing] 팝업창 스타일 속성: '{win_corp_info_style}'")
+
+        # 팝업창 상태 판단 로직 수정
+        # - style 속성이 None이거나 빈 문자열 → 팝업창 열림
+        # - style 속성에 'display: none;' 포함 → 팝업창 닫힘
+        popup_status = False
+        if win_corp_info_style is None or win_corp_info_style == '':
+            logger.info(f"[search_pop_closing] 기업 명단 팝업 창 열림 상태 (style 속성 없음)")
+            popup_status = True
+        elif 'display: none;' not in win_corp_info_style:
+            logger.info(f"[search_pop_closing] 기업 명단 팝업 창 열림 상태 (display: none 없음)")
+            popup_status = True
+        else:
+            logger.info(f"[search_pop_closing] 기업 명단 팝업 창 닫힌 상태")
+
+        if popup_status:
+            tbody = win_corp_info.locator('#corpListContents > div.tbLWrap > div.tbLInner > table > tbody')
+            trs = tbody.locator('tr')
+            tr_count = await trs.count()
+
+            tr_list = await trs.all()
+            for tr in tr_list:
+                tds = tr.locator('td')
+                
+                ## 1번째 td 요소의 텍스트 추출 (기업명)
+                td_text = await tds.nth(1).text_content()
+                td_text = td_text[1:]
+
+                ## 3번째 td 요소의 텍스트 추출 (종목코드)
+                td_stock_code = await tds.nth(3).text_content()
+
+                logger.info(f"[search_pop_closing] 팝업창 기업 정보: {td_text}, 종목코드: {td_stock_code}")
+                
+                if td_text == target_name and td_stock_code == target_stock_code:
+                    logger.info(f"[search_pop_closing] 검색 조건과 일치하는 기업 발견: {td_text}, {td_stock_code}")
+                    td_check = tds.nth(0)
+                    await td_check.click()
+                    await self.page.screenshot(path=f'/playwright-crawler/screenshots/03_select_company.png')
+                    
+                    # 팝업창 확인 버튼 클릭
+                    confirm_btn = self.page.locator('#winCorpInfo > div.searchPop.wrapM > div.contWrap > div.btnArea > a.btnSB')
+                    logger.info(f"[search_pop_closing] 팝업창 확인 버튼 존재 여부: {await confirm_btn.count()}")
+                    if await confirm_btn.count() > 0:
+                        await confirm_btn.click()
+                        logger.info(f"[search_pop_closing] 팝업창 확인 버튼 클릭 완료")
+                        await asyncio.sleep(1)  # 팝업창이 닫힐 때까지 대기
+                    
+                    break
+            return True
+        else:
+            return False
+
 
     async def collect_report_list(self):
         logger.info(f"[collect_report_list] 보고서 목록 수집 시작")
@@ -232,6 +293,9 @@ class FinancialStatementCrawler:
         current_year = self.page.url
         current_year = current_year.split('=')[-1][:4]
         
+        # URL에서 rcept_no 추출
+        current_rcept_no = self.page.url.split('=')[-1]
+        
         try:
             iframe = self.page.frame_locator('#ifrm') ## iframe 내부에 접근
             await iframe.locator('body').wait_for(timeout=15000) ## iframe 내부 콘텐츠 로드 대기
@@ -254,9 +318,14 @@ class FinancialStatementCrawler:
                         if table_class == "nb":
                             # 각 테이블마다 새로운 template 생성
                             template = {
-                                "sj_div": "",
+                                "corp_name": getattr(self, 'company_name', ''),
+                                "stock_code": getattr(self, 'stock_code', ''),
+                                "corp_code": getattr(self, 'corp_code', ''),
                                 "bsns_year": current_year,
-                                "years": [],
+                                "rcept_no": current_rcept_no,
+                                "corp_type_value": getattr(self, 'corp_type_value', ''),
+                                "corp_type_name": getattr(self, 'corp_type_name', ''),
+                                "sj_div": "",
                                 "unit": "",
                                 "data": []
                             }
@@ -280,8 +349,23 @@ class FinancialStatementCrawler:
                                 if nb_title not in self.TARGET_SJ_LIST:
                                     continue
                                 
-                                template["sj_div"] = nb_title
-                                logger.info(f"[search_right_panel] {i}번째 표준 nb 테이블 제목(sj_div): {nb_title}")
+                                # sj_div를 Selenium과 동일한 형식으로 변환
+                                sj_div = nb_title
+                                fs_div = ""
+                                if "연결" in sj_div:
+                                    fs_div = "CFS"
+                                else:
+                                    fs_div = "OFS"
+
+                                if "재무상태표" in sj_div:
+                                    sj_div = "BS"
+                                elif "포괄손익계산서" in sj_div:
+                                    sj_div = "CIS"
+                                elif "손익계산서" in sj_div:
+                                    sj_div = "IS"
+
+                                template["sj_div"] = f"{fs_div}_{sj_div}"
+                                logger.info(f"[search_right_panel] {i}번째 표준 nb 테이블 제목(sj_div): {template['sj_div']}")
 
                                 for j in range(1, 4):
                                     tr = trs.nth(j)
@@ -292,7 +376,6 @@ class FinancialStatementCrawler:
                                         year = extract_year_from_report_title(td_text)
                                         years.append(year)
                                     
-                                template["years"] = years
                                 logger.info(f"[search_right_panel] {i}번째 표준 nb 테이블 추출 결과 (years): {years}")
 
                                 unit = await trs.nth(4).text_content()
@@ -337,7 +420,7 @@ class FinancialStatementCrawler:
                                     
                                     raw_account_name = ""
                                     account_name = ""
-                                    amounts = {}
+                                    amounts = []
                                     account_level = 0
                                     ancestors = []
                                     
@@ -370,7 +453,7 @@ class FinancialStatementCrawler:
                                             if td_text:
                                                 year = years[k-1] if k-1 < len(years) else ""
                                                 amount = td_text.strip() if td_text.strip() else "0"
-                                                amounts[year] = amount
+                                                amounts.append({year: amount})
                                     
                                     # 계정명이 "과목"인 경우 헤더 행이므로 스킵
                                     if account_name == "과목":
@@ -468,19 +551,48 @@ class FinancialStatementCrawler:
             is_open = 'jstree-open' in lv2_class if lv2_class else False
             
             if is_leaf:
-                # leaf 노드인 경우 바로 처리
-                logger.info(f"[search_left_panel_tree] level2 '{lv2_title}' - leaf 노드로 바로 처리")
-                if any(target_sj in lv2_title for target_sj in self.TARGET_SJ_LIST):
-                    logger.info(f"[search_left_panel_tree] 타겟 노드 발견: {lv2_title}")
+                # leaf 노드인 경우 - 연결재무제표나 재무제표 같은 상위 노드는 스킵하고 하위 노드를 찾아야 함
+                logger.info(f"[search_left_panel_tree] level2 '{lv2_title}' - leaf 노드이지만 상위 카테고리이므로 스킵")
+                # 연결재무제표나 재무제표 같은 상위 카테고리는 하위 노드가 있어야 하는데 leaf로 표시되는 경우가 있음
+                # 이런 경우 클릭해서 하위 노드가 펼쳐지는지 확인
+                if clean_lv2_title in ['연결재무제표', '재무제표']:
+                    logger.info(f"[search_left_panel_tree] '{lv2_title}' 클릭하여 하위 노드 확인")
                     await lv2_node.locator('.jstree-anchor').first.click()
-                    await asyncio.sleep(1)
+                    await asyncio.sleep(2)  # 노드가 펼쳐질 시간을 충분히 줌
                     await self.page.wait_for_load_state('networkidle')
-                    await self.page.screenshot(path=f'/playwright-crawler/screenshots/04_search_left_panel_{lv2_title}.png')
+                    
+                    # 클릭 후 노드 상태 재확인
+                    lv2_class_after = await lv2_node.get_attribute('class')
+                    is_open_after = 'jstree-open' in lv2_class_after if lv2_class_after else False
+                    
+                    if is_open_after:
+                        logger.info(f"[search_left_panel_tree] '{lv2_title}' 클릭 후 하위 노드가 펼쳐짐")
+                        # 하위 노드들 처리
+                        lv2_childrens = lv2_node.locator('.jstree-children')
+                        lv3_nodes = lv2_childrens.locator('li')
+                        num_lv3_nodes = await lv3_nodes.count()
+                        logger.info(f"[search_left_panel_tree] level2 '{lv2_title}' 노드의 자식 노드 수: {num_lv3_nodes}")
 
-                    dataset = await self.search_right_panel()
-                    if dataset:
-                        collected_datasets.extend(dataset)
-                        logger.info(f"[search_left_panel_tree] '{lv2_title}'에서 {len(dataset)}개 데이터 수집")
+                        lv3_nodes_list = await lv3_nodes.all()
+                        for lv3_idx, lv3_node in enumerate(lv3_nodes_list):
+                            lv3_anchor = lv3_node.locator('.jstree-anchor').first
+                            lv3_title = await lv3_anchor.text_content()
+                            logger.info(f"[search_left_panel_tree] level3 '{lv3_title}' 노드 발견")
+                            
+                            # 하위 노드가 타겟 리스트에 포함되는지 확인
+                            if any(target_sj in lv3_title for target_sj in self.TARGET_SJ_LIST):
+                                logger.info(f"[search_left_panel_tree] 타겟 노드 발견: {lv3_title}")
+                                await lv3_node.locator('.jstree-anchor').first.click()
+                                await asyncio.sleep(1)
+                                await self.page.wait_for_load_state('networkidle')
+                                await self.page.screenshot(path=f'/playwright-crawler/screenshots/04_search_left_panel_{lv3_title}.png')
+
+                                dataset = await self.search_right_panel()
+                                if dataset:
+                                    collected_datasets.extend(dataset)
+                                    logger.info(f"[search_left_panel_tree] '{lv3_title}'에서 {len(dataset)}개 데이터 수집")
+                    else:
+                        logger.warning(f"[search_left_panel_tree] '{lv2_title}' 클릭했지만 하위 노드가 펼쳐지지 않음")
 
             else:
                 # open 노드인 경우 하위 노드들 탐색
@@ -512,11 +624,36 @@ class FinancialStatementCrawler:
         logger.info(f"[search_left_panel_tree] 총 {len(collected_datasets)}개 재무제표 데이터 수집 완료")
         return collected_datasets
 
-    async def collect_financial_statements(self, company_name: str):
+    async def collect_financial_statements(self, company_name: str, corp_type_value: str):
         logger.info(f"[collect_financial_statements] 재무제표 수집 시작: {company_name}")
+
+        search_result = search_company(corp_name=company_name, corp_type_value=corp_type_value)
+        stock_code = search_result['stock_code']
+        corp_code = search_result['corp_code']
+        level1 = search_result['level1']
+        level2 = search_result['level2']
+        level3 = search_result['level3']
+        level4 = search_result['level4']
+        level5 = search_result['level5']
+        
+        # 기업 정보를 인스턴스 변수로 저장
+        self.company_name = company_name
+        self.stock_code = stock_code
+        self.corp_code = corp_code
+        self.corp_type_value = corp_type_value
+        
+        # 법인 유형 코드 매핑
+        corp_type_map = {
+            "all": "전체",
+            "P": "유가증권시장",
+            "A": "코스닥시장",
+            "N": "코넥스시장",
+            "E": "기타법인"
+        }
+        self.corp_type_name = corp_type_map.get(corp_type_value, "알 수 없음")
         
         await self.init_browser()
-        await self.search_company(company_name)
+        await self.search_by_corp_name(company_name, stock_code)
         report_list = await self.collect_report_list()
         logger.info(f"[collect_financial_statements] 총 {len(report_list)}개 보고서 정보 수집 완료")
 
