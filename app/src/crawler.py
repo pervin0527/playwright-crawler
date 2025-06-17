@@ -228,6 +228,9 @@ class FinancialStatementCrawler:
 
         await self.page.wait_for_selector('#ifrm', timeout=30000) ## iframe이 로드될 때까지 대기
         await asyncio.sleep(1) ## iframe 내부 콘텐츠 로드 대기
+
+        current_year = self.page.url
+        current_year = current_year.split('=')[-1][:4]
         
         try:
             iframe = self.page.frame_locator('#ifrm') ## iframe 내부에 접근
@@ -240,13 +243,8 @@ class FinancialStatementCrawler:
             if table_count > 0:
                 tables_list = await tables.all()
 
-                template = {
-                    "sj_div": "",
-                    "years": [],
-                    "unit": "",
-                    "data": []
-                }
                 dataset = []
+                check_set = set()
                 for i, table in enumerate(tables_list):
                     try:
                         table_class = await table.get_attribute("class")
@@ -254,11 +252,24 @@ class FinancialStatementCrawler:
                         
                         ## nb 테이블 처리
                         if table_class == "nb":
+                            # 각 테이블마다 새로운 template 생성
+                            template = {
+                                "sj_div": "",
+                                "bsns_year": current_year,
+                                "years": [],
+                                "unit": "",
+                                "data": []
+                            }
+                            
                             # 표준 양식 검증
                             is_standard = await self.valid_standard_nb_table(table)
                             logger.info(f"[search_right_panel] {i}번째 nb 테이블 표준 양식 여부: {is_standard}")
                             
-                            if is_standard:
+                            if not is_standard:
+                                logger.warning(f"[search_right_panel] 표준 양식이 아닌 nb 테이블 발견, 스킵합니다.")
+                                continue
+
+                            else:
                                 # 표준 양식 nb 테이블 처리
                                 years = []
                                 trs = table.locator('tr')
@@ -280,18 +291,7 @@ class FinancialStatementCrawler:
                                         td_text = await td.text_content()
                                         year = extract_year_from_report_title(td_text)
                                         years.append(year)
-
-                                if len(years) != 3:
-                                    continue
-
-                                if len(years) == 3:
-                                    report_year = self.page.url
-                                    report_year = report_year.split('=')[-1][:5]
                                     
-                                    if int(report_year) != int(years[0]) and int(report_year) != int(years[1]) and int(report_year) != int(years[2]):
-                                        continue
-                                    
-                                
                                 template["years"] = years
                                 logger.info(f"[search_right_panel] {i}번째 표준 nb 테이블 추출 결과 (years): {years}")
 
@@ -302,11 +302,9 @@ class FinancialStatementCrawler:
                                 
                                 template["unit"] = unit
                                 logger.info(f"[search_right_panel] {i}번째 표준 nb 테이블 단위: {unit}")
-                            else:
-                                # 비표준 양식 nb 테이블 처리
-                                logger.info(f"[search_right_panel] {i}번째 비표준 nb 테이블 - 별도 처리 로직 필요")
-                                # TODO: 비표준 양식에 대한 처리 로직 구현
-                                        
+
+                                dataset.append(template)
+                                logger.info(f"[search_right_panel] {i}번째 표준 nb 테이블 추출 결과: {template}")
                                 
 
                         elif table_border == "1":
@@ -314,78 +312,103 @@ class FinancialStatementCrawler:
                             is_standard = await self.valid_standard_data_table(table)
                             logger.info(f"[search_right_panel] {i}번째 데이터 테이블 표준 양식 여부: {is_standard}")
                             
-                            # 테이블 행 수 확인
-                            rows = table.locator('tr')
-                            row_count = await rows.count()
-                            logger.info(f"[search_right_panel] 데이터 테이블 {i+1} 행 수: {row_count}")
-                            
-                            if is_standard:
-                                # 표준 양식 데이터 테이블 처리
-                                logger.info(f"[search_right_panel] {i}번째 표준 데이터 테이블 처리 시작")
-                                
-                                # 처음 몇 행의 데이터 샘플 출력
-                                tbody_rows = table.locator('tbody tr')
-                                tbody_count = await tbody_rows.count()
-                                sample_count = min(5, tbody_count)  # 최대 5행만 샘플로 출력
-                                
-                                if sample_count > 0:
-                                    logger.info(f"[search_right_panel] 표준 데이터 샘플 (처음 {sample_count}행):")
-                                    tbody_list = await tbody_rows.all()
-                                    
-                                    for k in range(sample_count):
-                                        row = tbody_list[k]
-                                        cells = row.locator('td')
-                                        cell_count = await cells.count()
-                                        
-                                        cell_texts = []
-                                        cell_list = await cells.all()
-                                        for cell in cell_list:
-                                            cell_text = await cell.text_content()
-                                            cell_texts.append(cell_text.strip() if cell_text else '')
-                                        
-                                        logger.info(f"[search_right_panel] 표준 행 {k+1}: {cell_texts}")
-                                
+                            account_data = []
+                            if not is_standard:
+                                raise Exception("표준 양식이 아닌 데이터 테이블 발견")
                                 # TODO: 표준 양식 데이터 테이블에 대한 실제 데이터 추출 로직 구현
+
                             else:
-                                # 비표준 양식 데이터 테이블 처리
-                                logger.info(f"[search_right_panel] {i}번째 비표준 데이터 테이블 처리 시작")
-                                
-                                # 처음 몇 행의 데이터 샘플 출력
+                                logger.info(f"[search_right_panel] {i}번째 표준 데이터 테이블 처리 시작")
                                 tbody_rows = table.locator('tbody tr')
                                 tbody_count = await tbody_rows.count()
-                                sample_count = min(5, tbody_count)  # 최대 5행만 샘플로 출력
-                                
-                                if sample_count > 0:
-                                    logger.info(f"[search_right_panel] 비표준 데이터 샘플 (처음 {sample_count}행):")
-                                    tbody_list = await tbody_rows.all()
+                                logger.info(f"[search_right_panel] {i}번째 표준 데이터 테이블 행 수: {tbody_count}")
+
+                                tbody_list = await tbody_rows.all()
+                                years = [str(int(current_year) - 1), str(int(current_year) - 2), str(int(current_year) - 3)]
+
+                                # 계층 구조 추적을 위한 변수
+                                current_accounts_by_level = {}
+                                ord_value = 1
+                                account_data = []
+
+                                for j, row in enumerate(tbody_list):
+                                    tds = row.locator('td')
+                                    tds_list = await tds.all()
                                     
-                                    for k in range(sample_count):
-                                        row = tbody_list[k]
-                                        cells = row.locator('td')
-                                        cell_count = await cells.count()
-                                        
-                                        cell_texts = []
-                                        cell_list = await cells.all()
-                                        for cell in cell_list:
-                                            cell_text = await cell.text_content()
-                                            cell_texts.append(cell_text.strip() if cell_text else '')
-                                        
-                                        logger.info(f"[search_right_panel] 비표준 행 {k+1}: {cell_texts}")
+                                    raw_account_name = ""
+                                    account_name = ""
+                                    amounts = {}
+                                    account_level = 0
+                                    ancestors = []
+                                    
+                                    for k, td in enumerate(tds_list):
+                                        if k == 0:
+                                            # 첫 번째 열에서 계정명 추출
+                                            raw_account_name = await td.text_content()
+                                            if raw_account_name:
+                                                # 유니코드 공백 처리 (\u3000은 전각 공백)
+                                                raw_account_name = raw_account_name.replace('\u3000', ' ')
+                                                
+                                                # 계층 구조 파악을 위해 계정명 앞의 공백 개수 확인
+                                                leading_spaces = len(raw_account_name) - len(raw_account_name.lstrip())
+                                                account_level = leading_spaces
+                                                
+                                                account_name = clean_account_name(raw_account_name)
+                                                
+                                                # 현재 레벨의 계정 저장
+                                                current_accounts_by_level[account_level] = account_name
+                                                
+                                                # 상위 레벨의 계정들을 ancestors로 수집
+                                                ancestors = []
+                                                for level in range(account_level):
+                                                    if level in current_accounts_by_level:
+                                                        ancestors.append(current_accounts_by_level[level])
+                                                        
+                                        elif k >= 1 and k <= 3:
+                                            # 2~4번째 열에서 금액 데이터 추출 (3개년 데이터)
+                                            td_text = await td.text_content()
+                                            if td_text:
+                                                year = years[k-1] if k-1 < len(years) else ""
+                                                amount = td_text.strip() if td_text.strip() else "0"
+                                                amounts[year] = amount
+                                    
+                                    # 계정명이 "과목"인 경우 헤더 행이므로 스킵
+                                    if account_name == "과목":
+                                        continue
+                                    
+                                    # 계정 데이터 추가
+                                    if account_name:
+                                        account_data.append({
+                                            "ord_value": ord_value,
+                                            "raw_account_name": raw_account_name,
+                                            "account_name": account_name,
+                                            "amounts": amounts,
+                                            "account_level": account_level,
+                                            "ancestors": ancestors
+                                        })
+                                        ord_value += 1
+                                        logger.info(f"[search_right_panel] 계정 추가: {account_name} (레벨: {account_level}, 상위계정: {ancestors})")
+                                        logger.info(f"[search_right_panel] {amounts}")
                                 
-                                # TODO: 비표준 양식 데이터 테이블에 대한 별도 처리 로직 구현
-                        
-                        else:
-                            logger.info(f"[search_right_panel] 기타 테이블 {i+1}: 클래스={table_class}, border={table_border}")
+                                # 데이터를 dataset에 추가 (기존 template 구조와 병합)
+                                if len(dataset) > 0:
+                                    dataset[-1]["data"] = account_data
+                                    logger.info(f"[search_right_panel] {i}번째 표준 데이터 테이블 처리 완료: {len(account_data)}개 계정")
+
                             
                     except Exception as e:
                         logger.warning(f"[search_right_panel] 테이블 {i+1} 처리 중 오류: {str(e)}")
+                        continue
+                
+                logger.info(f"[search_right_panel] 총 {len(dataset)}개 재무제표 데이터 수집 완료")
+                return dataset
             else:
                 logger.warning(f"[search_right_panel] 테이블을 찾을 수 없습니다")
+                return []
                 
         except Exception as e:
             logger.error(f"[search_right_panel] iframe 접근 실패: {str(e)}")
-
-        return True
+            return []
     
 
     async def search_left_panel_tree(self):
@@ -394,6 +417,9 @@ class FinancialStatementCrawler:
         level1_nodes = tree.locator('.jstree-open')
         num_level1_nodes = await level1_nodes.count()
         logger.info(f"[search_left_panel_tree] 좌측 트리 검색 완료: {num_level1_nodes}개")
+
+        # 수집된 데이터를 누적할 리스트
+        collected_datasets = []
 
         target_lv1_idx = None
         level1_nodes_list = await level1_nodes.all()
@@ -407,7 +433,7 @@ class FinancialStatementCrawler:
 
         if target_lv1_idx is None:
             logger.error(f"[search_left_panel_tree] '재무에 관한 사항' 노드를 찾을 수 없습니다.")
-            return False
+            return []
         
         logger.info(f"[search_left_panel_tree] '재무에 관한 사항' 노드 발견")
         target_lv1_node = level1_nodes_list[target_lv1_idx]
@@ -451,7 +477,10 @@ class FinancialStatementCrawler:
                     await self.page.wait_for_load_state('networkidle')
                     await self.page.screenshot(path=f'/playwright-crawler/screenshots/04_search_left_panel_{lv2_title}.png')
 
-                    await self.search_right_panel()
+                    dataset = await self.search_right_panel()
+                    if dataset:
+                        collected_datasets.extend(dataset)
+                        logger.info(f"[search_left_panel_tree] '{lv2_title}'에서 {len(dataset)}개 데이터 수집")
 
             else:
                 # open 노드인 경우 하위 노드들 탐색
@@ -475,9 +504,13 @@ class FinancialStatementCrawler:
                         await self.page.wait_for_load_state('networkidle')
                         await self.page.screenshot(path=f'/playwright-crawler/screenshots/04_search_left_panel_{lv3_title}.png')
 
-                        await self.search_right_panel()
+                        dataset = await self.search_right_panel()
+                        if dataset:
+                            collected_datasets.extend(dataset)
+                            logger.info(f"[search_left_panel_tree] '{lv3_title}'에서 {len(dataset)}개 데이터 수집")
                 
-        return True
+        logger.info(f"[search_left_panel_tree] 총 {len(collected_datasets)}개 재무제표 데이터 수집 완료")
+        return collected_datasets
 
     async def collect_financial_statements(self, company_name: str):
         logger.info(f"[collect_financial_statements] 재무제표 수집 시작: {company_name}")
@@ -485,8 +518,9 @@ class FinancialStatementCrawler:
         await self.init_browser()
         await self.search_company(company_name)
         report_list = await self.collect_report_list()
-        
         logger.info(f"[collect_financial_statements] 총 {len(report_list)}개 보고서 정보 수집 완료")
+
+        total_dataset = []                
         for idx, report in enumerate(report_list):
             logger.info(f"[collect_financial_statements] {idx+1}번째 보고서 수집 시작")
             logger.info(f"[collect_financial_statements] 회사명: {report['company_name']}, 보고서명: {report['report_name']}, 발행일: {report['publish_date']}, 보고서 URL: {report['report_url']}")
@@ -494,5 +528,8 @@ class FinancialStatementCrawler:
             await self.page.goto(report['report_url'], wait_until='networkidle', timeout=60000)
             await self.page.screenshot(path=f'/playwright-crawler/screenshots/03_report_url.png')
 
-            await self.search_left_panel_tree()
-            break
+            dataset = await self.search_left_panel_tree()
+            total_dataset.extend(dataset if dataset else [])
+
+        return total_dataset
+
